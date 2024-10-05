@@ -5,29 +5,30 @@ m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=
 def get_province_data():
     data = pd.DataFrame({
         'lon': [
-            -79.3832,   # Ontario
-            -106.3468,  # Saskatchewan
-            -123.1216,  # British Columbia
-            -66.4619,   # New Brunswick
-            -66.6484,   # Prince Edward Island
-            -91.2145,   # Manitoba
-            -57.6604,   # Newfoundland and Labrador
-            -97.7430,   # Alberta
-            -126.3469,  # Yukon
-            -111.6585   # Northwest Territories
+            -84.3478,
+            -105.0008,
+            -123.3656,
+            -66.4619,
+            -63.1340,
+            -97.5500,
+            -58.0000,
+            -115.5834,
+            -135.0000,
+            -119.4900,
+            -62.8600
         ],
-        # same structure for lat
         'lat': [
-            43.6532,  
-            52.9399,  
-            49.2827, 
-            45.2733,  
-            46.5653,  
-            53.7609,  
-            52.9399, 
-            53.5461,  
-            60.7212, 
-            53.9333   
+            50.0000,
+            55.0000,
+            53.7267,
+            46.5653,
+            46.5107,
+            53.7609,
+            53.1355,
+            55.0000,
+            64.2823,
+            64.8255,
+            45.0000
         ],
         'name': [
             'Ontario',
@@ -39,11 +40,13 @@ def get_province_data():
             'Newfoundland and Labrador',
             'Alberta',
             'Yukon',
-            'Northwest Territories'
+            'Northwest Territories',
+            'Nova Scotia'
         ],
-        'value': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+        'value': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
     })
     return data
+
 
 data = get_province_data()
 
