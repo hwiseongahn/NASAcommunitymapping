@@ -3,7 +3,7 @@ import requests
 import json
 import pandas as pd
 
-API_KEY = 'AIzaSyAkHIALksfdfAAz1cDH81OrY9_MKGTnuHM'
+API_KEY = ''
 
 
 # Function to get city latitude and longitude using the Open-Meteo Geocoding API
@@ -81,7 +81,7 @@ def process_city_data_for_CO2(csv_file, output_json):
 
 
 # Example usage
-csv_file = "dataCSV/albertaCo2Refined.csv"  # Input CSV file containing city names and emissions data
+csv_file = "../res/albertaCo2Refined.csv"  # Input CSV file containing city names and emissions data
 output_json = "co2_alberta_data.json"  # Output JSON file to store city data
 
 process_city_data_for_CO2(csv_file, output_json)
