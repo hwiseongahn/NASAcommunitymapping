@@ -1,0 +1,1458 @@
+[
+    {
+        "city_name": "Alix Lake",
+        "year": 2021,
+        "latitude": 52.3929953,
+        "longitude": -113.1976626,
+        "averageCellCount": 372078
+    },
+    {
+        "city_name": "Alix Lake",
+        "year": 2023,
+        "latitude": 52.3929953,
+        "longitude": -113.1976626,
+        "averageCellCount": 742330
+    },
+    {
+        "city_name": "Alix Lake",
+        "year": 2024,
+        "latitude": 52.3929953,
+        "longitude": -113.1976626,
+        "averageCellCount": 225504
+    },
+    {
+        "city_name": "Astotin Lake",
+        "year": 2021,
+        "latitude": 53.6778846,
+        "longitude": -112.8480967,
+        "averageCellCount": 36631
+    },
+    {
+        "city_name": "Astotin Lake",
+        "year": 2022,
+        "latitude": 53.6778846,
+        "longitude": -112.8480967,
+        "averageCellCount": 100659
+    },
+    {
+        "city_name": "Astotin Lake",
+        "year": 2023,
+        "latitude": 53.6778846,
+        "longitude": -112.8480967,
+        "averageCellCount": 32364474
+    },
+    {
+        "city_name": "Astotin Lake",
+        "year": 2024,
+        "latitude": 53.6778846,
+        "longitude": -112.8480967,
+        "averageCellCount": 106314
+    },
+    {
+        "city_name": "Baptiste Lake",
+        "year": 2021,
+        "latitude": 54.74591969999999,
+        "longitude": -113.5545458,
+        "averageCellCount": 25385
+    },
+    {
+        "city_name": "Baptiste Lake",
+        "year": 2022,
+        "latitude": 54.74591969999999,
+        "longitude": -113.5545458,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Baptiste Lake",
+        "year": 2023,
+        "latitude": 54.74591969999999,
+        "longitude": -113.5545458,
+        "averageCellCount": 367
+    },
+    {
+        "city_name": "Baptiste Lake",
+        "year": 2024,
+        "latitude": 54.74591969999999,
+        "longitude": -113.5545458,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Bear Lake",
+        "year": 2019,
+        "latitude": 55.283333,
+        "longitude": -118.983333,
+        "averageCellCount": 55209
+    },
+    {
+        "city_name": "Beaver Lake",
+        "year": 2023,
+        "latitude": 54.76197,
+        "longitude": -111.910829,
+        "averageCellCount": 25029
+    },
+    {
+        "city_name": "Bonnie Lake",
+        "year": 2021,
+        "latitude": 54.1537421,
+        "longitude": -111.8572281,
+        "averageCellCount": 2326
+    },
+    {
+        "city_name": "Bonnie Lake",
+        "year": 2023,
+        "latitude": 54.1537421,
+        "longitude": -111.8572281,
+        "averageCellCount": 18000
+    },
+    {
+        "city_name": "Bonnie Lake",
+        "year": 2024,
+        "latitude": 54.1537421,
+        "longitude": -111.8572281,
+        "averageCellCount": 7182
+    },
+    {
+        "city_name": "Buck Lake",
+        "year": 2021,
+        "latitude": 52.9526231,
+        "longitude": -114.7954031,
+        "averageCellCount": 3171342
+    },
+    {
+        "city_name": "Buck Lake",
+        "year": 2022,
+        "latitude": 52.9526231,
+        "longitude": -114.7954031,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Buck Lake",
+        "year": 2023,
+        "latitude": 52.9526231,
+        "longitude": -114.7954031,
+        "averageCellCount": 68670
+    },
+    {
+        "city_name": "Buck Lake",
+        "year": 2024,
+        "latitude": 52.9526231,
+        "longitude": -114.7954031,
+        "averageCellCount": 5690
+    },
+    {
+        "city_name": "Buffalo Lake",
+        "year": 2021,
+        "latitude": 55.383333,
+        "longitude": -119.016667,
+        "averageCellCount": 54989
+    },
+    {
+        "city_name": "Buffalo Lake",
+        "year": 2024,
+        "latitude": 55.383333,
+        "longitude": -119.016667,
+        "averageCellCount": 566
+    },
+    {
+        "city_name": "Calling Lake",
+        "year": 2020,
+        "latitude": 55.210335,
+        "longitude": -113.193325,
+        "averageCellCount": 1844
+    },
+    {
+        "city_name": "Calling Lake",
+        "year": 2021,
+        "latitude": 55.210335,
+        "longitude": -113.193325,
+        "averageCellCount": 9166
+    },
+    {
+        "city_name": "Calling Lake",
+        "year": 2022,
+        "latitude": 55.210335,
+        "longitude": -113.193325,
+        "averageCellCount": 2949
+    },
+    {
+        "city_name": "Calling Lake",
+        "year": 2023,
+        "latitude": 55.210335,
+        "longitude": -113.193325,
+        "averageCellCount": 4270
+    },
+    {
+        "city_name": "Calling Lake",
+        "year": 2024,
+        "latitude": 55.210335,
+        "longitude": -113.193325,
+        "averageCellCount": 6983
+    },
+    {
+        "city_name": "Camp Lake",
+        "year": 2022,
+        "latitude": 53.1271496,
+        "longitude": -111.5300398,
+        "averageCellCount": 264917
+    },
+    {
+        "city_name": "Chestermere Lake",
+        "year": 2020,
+        "latitude": 51.03642079999999,
+        "longitude": -113.8155959,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Chestermere Lake",
+        "year": 2021,
+        "latitude": 51.03642079999999,
+        "longitude": -113.8155959,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Clear Lake",
+        "year": 2023,
+        "latitude": 50.1456104,
+        "longitude": -113.4145196,
+        "averageCellCount": 348000
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2020,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "averageCellCount": 1721
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2021,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "averageCellCount": 2797
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2022,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2023,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "averageCellCount": 2684
+    },
+    {
+        "city_name": "Devil's Lake (Matchayaw Lake)",
+        "year": 2020,
+        "latitude": 53.7105428,
+        "longitude": -114.0996627,
+        "averageCellCount": 10298
+    },
+    {
+        "city_name": "Devil's Lake (Matchayaw Lake)",
+        "year": 2023,
+        "latitude": 53.7105428,
+        "longitude": -114.0996627,
+        "averageCellCount": 11604
+    },
+    {
+        "city_name": "Devil's Lake (Matchayaw Lake)",
+        "year": 2024,
+        "latitude": 53.7105428,
+        "longitude": -114.0996627,
+        "averageCellCount": 2863
+    },
+    {
+        "city_name": "Enchant Municipal Lake",
+        "year": 2023,
+        "latitude": 50.164518,
+        "longitude": -112.419032,
+        "averageCellCount": 237577
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2019,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 260597
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2020,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 111004
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2021,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 114
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2022,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 4115
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2023,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 108207
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2024,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Fork Lake",
+        "year": 2020,
+        "latitude": 54.45,
+        "longitude": -111.616667,
+        "averageCellCount": 59916
+    },
+    {
+        "city_name": "Fork Lake",
+        "year": 2023,
+        "latitude": 54.45,
+        "longitude": -111.616667,
+        "averageCellCount": 166383
+    },
+    {
+        "city_name": "Freeman Lake",
+        "year": 2022,
+        "latitude": 54.6942305,
+        "longitude": -115.5394015,
+        "averageCellCount": 444553
+    },
+    {
+        "city_name": "Garner Lake",
+        "year": 2022,
+        "latitude": 54.1986334,
+        "longitude": -111.7338718,
+        "averageCellCount": 2294
+    },
+    {
+        "city_name": "Garner Lake",
+        "year": 2023,
+        "latitude": 54.1986334,
+        "longitude": -111.7338718,
+        "averageCellCount": 7604
+    },
+    {
+        "city_name": "Garner Lake",
+        "year": 2024,
+        "latitude": 54.1986334,
+        "longitude": -111.7338718,
+        "averageCellCount": 1453
+    },
+    {
+        "city_name": "Goose Lake",
+        "year": 2021,
+        "latitude": 54.3,
+        "longitude": -115.116667,
+        "averageCellCount": 855
+    },
+    {
+        "city_name": "Goose Lake",
+        "year": 2022,
+        "latitude": 54.3,
+        "longitude": -115.116667,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Goose Lake",
+        "year": 2023,
+        "latitude": 54.3,
+        "longitude": -115.116667,
+        "averageCellCount": 5449
+    },
+    {
+        "city_name": "Goose Lake",
+        "year": 2024,
+        "latitude": 54.3,
+        "longitude": -115.116667,
+        "averageCellCount": 4503
+    },
+    {
+        "city_name": "Gregoire (Willow) Lake",
+        "year": 2024,
+        "latitude": 56.4621147,
+        "longitude": -111.1418751,
+        "averageCellCount": 7449
+    },
+    {
+        "city_name": "Gull Lake",
+        "year": 2020,
+        "latitude": 52.4639521,
+        "longitude": -113.9361726,
+        "averageCellCount": 7485
+    },
+    {
+        "city_name": "Gull Lake",
+        "year": 2021,
+        "latitude": 52.4639521,
+        "longitude": -113.9361726,
+        "averageCellCount": 39275
+    },
+    {
+        "city_name": "Gull Lake",
+        "year": 2022,
+        "latitude": 52.4639521,
+        "longitude": -113.9361726,
+        "averageCellCount": 21430
+    },
+    {
+        "city_name": "Gull Lake",
+        "year": 2023,
+        "latitude": 52.4639521,
+        "longitude": -113.9361726,
+        "averageCellCount": 30137
+    },
+    {
+        "city_name": "Gull Lake",
+        "year": 2024,
+        "latitude": 52.4639521,
+        "longitude": -113.9361726,
+        "averageCellCount": 30604
+    },
+    {
+        "city_name": "Half Moon Lake",
+        "year": 2021,
+        "latitude": 53.45979089999999,
+        "longitude": -113.0890625,
+        "averageCellCount": 34420
+    },
+    {
+        "city_name": "Half Moon Lake",
+        "year": 2022,
+        "latitude": 53.45979089999999,
+        "longitude": -113.0890625,
+        "averageCellCount": 1290
+    },
+    {
+        "city_name": "Half Moon Lake",
+        "year": 2023,
+        "latitude": 53.45979089999999,
+        "longitude": -113.0890625,
+        "averageCellCount": 163740
+    },
+    {
+        "city_name": "Half Moon Lake",
+        "year": 2024,
+        "latitude": 53.45979089999999,
+        "longitude": -113.0890625,
+        "averageCellCount": 6818
+    },
+    {
+        "city_name": "Hastings Lake",
+        "year": 2022,
+        "latitude": 53.4182382,
+        "longitude": -112.9179424,
+        "averageCellCount": 23877
+    },
+    {
+        "city_name": "Hastings Lake",
+        "year": 2023,
+        "latitude": 53.4182382,
+        "longitude": -112.9179424,
+        "averageCellCount": 705807
+    },
+    {
+        "city_name": "Hastings Lake",
+        "year": 2024,
+        "latitude": 53.4182382,
+        "longitude": -112.9179424,
+        "averageCellCount": 908432
+    },
+    {
+        "city_name": "Haunted Lake",
+        "year": 2021,
+        "latitude": 52.402351,
+        "longitude": -113.1497949,
+        "averageCellCount": 3045
+    },
+    {
+        "city_name": "Haunted Lake",
+        "year": 2022,
+        "latitude": 52.402351,
+        "longitude": -113.1497949,
+        "averageCellCount": 2987
+    },
+    {
+        "city_name": "Haunted Lake",
+        "year": 2023,
+        "latitude": 52.402351,
+        "longitude": -113.1497949,
+        "averageCellCount": 1285
+    },
+    {
+        "city_name": "Haunted Lake",
+        "year": 2024,
+        "latitude": 52.402351,
+        "longitude": -113.1497949,
+        "averageCellCount": 226003
+    },
+    {
+        "city_name": "Hawrelak Lake",
+        "year": 2021,
+        "latitude": 53.527866,
+        "longitude": -113.5474445,
+        "averageCellCount": 1356
+    },
+    {
+        "city_name": "Heritage Lake",
+        "year": 2019,
+        "latitude": 53.6125,
+        "longitude": -113.631944,
+        "averageCellCount": 7421
+    },
+    {
+        "city_name": "Hutch Lake",
+        "year": 2021,
+        "latitude": 58.74786669999999,
+        "longitude": -117.2899253,
+        "averageCellCount": 47086
+    },
+    {
+        "city_name": "Hutch Lake",
+        "year": 2022,
+        "latitude": 58.74786669999999,
+        "longitude": -117.2899253,
+        "averageCellCount": 13839
+    },
+    {
+        "city_name": "Iosegun Lake",
+        "year": 2020,
+        "latitude": 54.4633272,
+        "longitude": -116.8438924,
+        "averageCellCount": 10251
+    },
+    {
+        "city_name": "Iosegun Lake",
+        "year": 2021,
+        "latitude": 54.4633272,
+        "longitude": -116.8438924,
+        "averageCellCount": 569
+    },
+    {
+        "city_name": "Iosegun Lake",
+        "year": 2022,
+        "latitude": 54.4633272,
+        "longitude": -116.8438924,
+        "averageCellCount": 448
+    },
+    {
+        "city_name": "Isle Lake",
+        "year": 2020,
+        "latitude": 53.6344207,
+        "longitude": -114.7072768,
+        "averageCellCount": 4658
+    },
+    {
+        "city_name": "Isle Lake",
+        "year": 2021,
+        "latitude": 53.6344207,
+        "longitude": -114.7072768,
+        "averageCellCount": 2958
+    },
+    {
+        "city_name": "Isle Lake",
+        "year": 2022,
+        "latitude": 53.6344207,
+        "longitude": -114.7072768,
+        "averageCellCount": 11097
+    },
+    {
+        "city_name": "Isle Lake",
+        "year": 2023,
+        "latitude": 53.6344207,
+        "longitude": -114.7072768,
+        "averageCellCount": 92949
+    },
+    {
+        "city_name": "Isle Lake",
+        "year": 2024,
+        "latitude": 53.6344207,
+        "longitude": -114.7072768,
+        "averageCellCount": 15716
+    },
+    {
+        "city_name": "Islet Lake",
+        "year": 2022,
+        "latitude": 53.4579527,
+        "longitude": -112.830656,
+        "averageCellCount": 166380
+    },
+    {
+        "city_name": "Islet Lake",
+        "year": 2023,
+        "latitude": 53.4579527,
+        "longitude": -112.830656,
+        "averageCellCount": 983606
+    },
+    {
+        "city_name": "Islet Lake",
+        "year": 2024,
+        "latitude": 53.4579527,
+        "longitude": -112.830656,
+        "averageCellCount": 1141342
+    },
+    {
+        "city_name": "Jackfish Lake (Parkland County)",
+        "year": 2019,
+        "latitude": 53.4845517,
+        "longitude": -114.2414362,
+        "averageCellCount": 6168
+    },
+    {
+        "city_name": "Kehiwin Lake",
+        "year": 2022,
+        "latitude": 54.0668715,
+        "longitude": -110.9034353,
+        "averageCellCount": 33026
+    },
+    {
+        "city_name": "Kehiwin Lake",
+        "year": 2023,
+        "latitude": 54.0668715,
+        "longitude": -110.9034353,
+        "averageCellCount": 20537
+    },
+    {
+        "city_name": "Kehiwin Lake",
+        "year": 2024,
+        "latitude": 54.0668715,
+        "longitude": -110.9034353,
+        "averageCellCount": 4459
+    },
+    {
+        "city_name": "Lac Cardinal (Bear Lake)",
+        "year": 2024,
+        "latitude": 55.283333,
+        "longitude": -118.983333,
+        "averageCellCount": 442536
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2019,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2020,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 2577
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2021,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2022,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 1090
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2023,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 1392
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2024,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 278
+    },
+    {
+        "city_name": "Lac La Nonne",
+        "year": 2021,
+        "latitude": 53.917202,
+        "longitude": -114.296767,
+        "averageCellCount": 9621
+    },
+    {
+        "city_name": "Lac La Nonne",
+        "year": 2022,
+        "latitude": 53.917202,
+        "longitude": -114.296767,
+        "averageCellCount": 1327
+    },
+    {
+        "city_name": "Lac La Nonne",
+        "year": 2023,
+        "latitude": 53.917202,
+        "longitude": -114.296767,
+        "averageCellCount": 28709
+    },
+    {
+        "city_name": "Lac La Nonne",
+        "year": 2024,
+        "latitude": 53.917202,
+        "longitude": -114.296767,
+        "averageCellCount": 3865
+    },
+    {
+        "city_name": "Lac Sante",
+        "year": 2021,
+        "latitude": 53.8448475,
+        "longitude": -111.5499522,
+        "averageCellCount": 948
+    },
+    {
+        "city_name": "Lac Ste. Anne",
+        "year": 2021,
+        "latitude": 53.687195,
+        "longitude": -114.433344,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Lac Ste. Anne",
+        "year": 2022,
+        "latitude": 53.687195,
+        "longitude": -114.433344,
+        "averageCellCount": 27470
+    },
+    {
+        "city_name": "Lac Ste. Anne",
+        "year": 2023,
+        "latitude": 53.687195,
+        "longitude": -114.433344,
+        "averageCellCount": 74381
+    },
+    {
+        "city_name": "Lac Ste. Anne",
+        "year": 2024,
+        "latitude": 53.687195,
+        "longitude": -114.433344,
+        "averageCellCount": 392
+    },
+    {
+        "city_name": "Lake McGregor",
+        "year": 2021,
+        "latitude": 50.423889,
+        "longitude": -112.851667,
+        "averageCellCount": 7529
+    },
+    {
+        "city_name": "Lessard Lake",
+        "year": 2021,
+        "latitude": 53.7871918,
+        "longitude": -114.6559369,
+        "averageCellCount": 434036
+    },
+    {
+        "city_name": "Lessard Lake",
+        "year": 2022,
+        "latitude": 53.7871918,
+        "longitude": -114.6559369,
+        "averageCellCount": 9396
+    },
+    {
+        "city_name": "Lessard Lake",
+        "year": 2023,
+        "latitude": 53.7871918,
+        "longitude": -114.6559369,
+        "averageCellCount": 68512
+    },
+    {
+        "city_name": "Lessard Lake",
+        "year": 2024,
+        "latitude": 53.7871918,
+        "longitude": -114.6559369,
+        "averageCellCount": 552
+    },
+    {
+        "city_name": "Lesser Slave Lake",
+        "year": 2021,
+        "latitude": 55.4312556,
+        "longitude": -115.6038964,
+        "averageCellCount": 354503
+    },
+    {
+        "city_name": "Lesser Slave Lake",
+        "year": 2022,
+        "latitude": 55.4312556,
+        "longitude": -115.6038964,
+        "averageCellCount": 603610
+    },
+    {
+        "city_name": "Lesser Slave Lake",
+        "year": 2023,
+        "latitude": 55.4312556,
+        "longitude": -115.6038964,
+        "averageCellCount": 60907
+    },
+    {
+        "city_name": "Lesser Slave Lake",
+        "year": 2024,
+        "latitude": 55.4312556,
+        "longitude": -115.6038964,
+        "averageCellCount": 3768
+    },
+    {
+        "city_name": "Long Lake",
+        "year": 2021,
+        "latitude": 54.4708641,
+        "longitude": -112.7710052,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Long Lake",
+        "year": 2022,
+        "latitude": 54.4708641,
+        "longitude": -112.7710052,
+        "averageCellCount": 1347
+    },
+    {
+        "city_name": "Long Lake",
+        "year": 2023,
+        "latitude": 54.4708641,
+        "longitude": -112.7710052,
+        "averageCellCount": 3563
+    },
+    {
+        "city_name": "Long Lake",
+        "year": 2024,
+        "latitude": 54.4708641,
+        "longitude": -112.7710052,
+        "averageCellCount": 377
+    },
+    {
+        "city_name": "Lower Th\u00e9rien Lake",
+        "year": 2021,
+        "latitude": 53.9375223,
+        "longitude": -111.359198,
+        "averageCellCount": 8885
+    },
+    {
+        "city_name": "Lower Th\u00e9rien Lake",
+        "year": 2022,
+        "latitude": 53.9375223,
+        "longitude": -111.359198,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Lower Th\u00e9rien Lake",
+        "year": 2023,
+        "latitude": 53.9375223,
+        "longitude": -111.359198,
+        "averageCellCount": 87630
+    },
+    {
+        "city_name": "McLeod (Carson) Lake",
+        "year": 2020,
+        "latitude": 53.6141139,
+        "longitude": -113.4360853,
+        "averageCellCount": 69195
+    },
+    {
+        "city_name": "Milk River Ridge Reservoir",
+        "year": 2020,
+        "latitude": 49.3683382,
+        "longitude": -112.5621932,
+        "averageCellCount": 72596
+    },
+    {
+        "city_name": "Milk River Ridge Reservoir",
+        "year": 2021,
+        "latitude": 49.3683382,
+        "longitude": -112.5621932,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Milk River Ridge Reservoir",
+        "year": 2022,
+        "latitude": 49.3683382,
+        "longitude": -112.5621932,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Milk River Ridge Reservoir",
+        "year": 2023,
+        "latitude": 49.3683382,
+        "longitude": -112.5621932,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Minnie Lake",
+        "year": 2019,
+        "latitude": 54.2804779,
+        "longitude": -111.1015881,
+        "averageCellCount": 231667
+    },
+    {
+        "city_name": "Miquelon Lake",
+        "year": 2023,
+        "latitude": 53.2425,
+        "longitude": -112.8975,
+        "averageCellCount": 35448
+    },
+    {
+        "city_name": "Moonshine (Mirage) Lake",
+        "year": 2020,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 6514
+    },
+    {
+        "city_name": "Moonshine (Mirage) Lake",
+        "year": 2021,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 199
+    },
+    {
+        "city_name": "Moonshine (Mirage) Lake",
+        "year": 2022,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Moonshine (Mirage) Lake",
+        "year": 2023,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 944
+    },
+    {
+        "city_name": "Moonshine (Mirage) Lake",
+        "year": 2024,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 2534
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2019,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 15688
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2020,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 127791
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2021,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 39910
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2022,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 9200
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2023,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 51977
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2024,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 21324
+    },
+    {
+        "city_name": "Muriel Lake",
+        "year": 2023,
+        "latitude": 54.1533003,
+        "longitude": -110.6927964,
+        "averageCellCount": 265997
+    },
+    {
+        "city_name": "Nakamun Lake",
+        "year": 2021,
+        "latitude": 53.88748090000001,
+        "longitude": -114.2193628,
+        "averageCellCount": 7387
+    },
+    {
+        "city_name": "North Buck Lake",
+        "year": 2024,
+        "latitude": 54.68956420000001,
+        "longitude": -112.5779307,
+        "averageCellCount": 10823
+    },
+    {
+        "city_name": "Paddle River Reservoir",
+        "year": 2021,
+        "latitude": 54.0966135,
+        "longitude": -114.2486742,
+        "averageCellCount": 48616147
+    },
+    {
+        "city_name": "Paddle River Reservoir",
+        "year": 2022,
+        "latitude": 54.0966135,
+        "longitude": -114.2486742,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Paddle River Reservoir",
+        "year": 2023,
+        "latitude": 54.0966135,
+        "longitude": -114.2486742,
+        "averageCellCount": 14794
+    },
+    {
+        "city_name": "Paddle River Reservoir",
+        "year": 2024,
+        "latitude": 54.0966135,
+        "longitude": -114.2486742,
+        "averageCellCount": 741
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2019,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2020,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 15385
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2021,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 584
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2022,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2023,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 1082
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2024,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 9899
+    },
+    {
+        "city_name": "Pine Lake",
+        "year": 2020,
+        "latitude": 52.109713,
+        "longitude": -113.480689,
+        "averageCellCount": 27252
+    },
+    {
+        "city_name": "Pine Lake",
+        "year": 2021,
+        "latitude": 52.109713,
+        "longitude": -113.480689,
+        "averageCellCount": 645
+    },
+    {
+        "city_name": "Pine Lake",
+        "year": 2022,
+        "latitude": 52.109713,
+        "longitude": -113.480689,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Pine Lake",
+        "year": 2023,
+        "latitude": 52.109713,
+        "longitude": -113.480689,
+        "averageCellCount": 11656
+    },
+    {
+        "city_name": "Pine Lake",
+        "year": 2024,
+        "latitude": 52.109713,
+        "longitude": -113.480689,
+        "averageCellCount": 5661
+    },
+    {
+        "city_name": "Shiningbank Lake",
+        "year": 2022,
+        "latitude": 53.8574312,
+        "longitude": -116.0423123,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Shiningbank Lake",
+        "year": 2023,
+        "latitude": 53.8574312,
+        "longitude": -116.0423123,
+        "averageCellCount": 4350
+    },
+    {
+        "city_name": "Shiningbank Lake",
+        "year": 2024,
+        "latitude": 53.8574312,
+        "longitude": -116.0423123,
+        "averageCellCount": 1274
+    },
+    {
+        "city_name": "Shorncliffe Lake",
+        "year": 2023,
+        "latitude": 52.47963499999999,
+        "longitude": -110.8837538,
+        "averageCellCount": 6146
+    },
+    {
+        "city_name": "Skeleton Lake",
+        "year": 2021,
+        "latitude": 54.61633759999999,
+        "longitude": -112.7293681,
+        "averageCellCount": 14458
+    },
+    {
+        "city_name": "Skeleton Lake",
+        "year": 2022,
+        "latitude": 54.61633759999999,
+        "longitude": -112.7293681,
+        "averageCellCount": 308684
+    },
+    {
+        "city_name": "Skeleton Lake",
+        "year": 2023,
+        "latitude": 54.61633759999999,
+        "longitude": -112.7293681,
+        "averageCellCount": 576479
+    },
+    {
+        "city_name": "Skeleton Lake",
+        "year": 2024,
+        "latitude": 54.61633759999999,
+        "longitude": -112.7293681,
+        "averageCellCount": 386205
+    },
+    {
+        "city_name": "Steele (Cross) Lake",
+        "year": 2021,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 3085
+    },
+    {
+        "city_name": "Steele (Cross) Lake",
+        "year": 2022,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Steele (Cross) Lake",
+        "year": 2023,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 30983
+    },
+    {
+        "city_name": "Steele (Cross) Lake",
+        "year": 2024,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "averageCellCount": 453
+    },
+    {
+        "city_name": "Stoney (Siler) Lake",
+        "year": 2021,
+        "latitude": 50.3944477,
+        "longitude": -113.8176395,
+        "averageCellCount": 38082
+    },
+    {
+        "city_name": "Stoney (Siler) Lake",
+        "year": 2022,
+        "latitude": 50.3944477,
+        "longitude": -113.8176395,
+        "averageCellCount": 43455
+    },
+    {
+        "city_name": "Stoney (Siler) Lake",
+        "year": 2023,
+        "latitude": 50.3944477,
+        "longitude": -113.8176395,
+        "averageCellCount": 28765
+    },
+    {
+        "city_name": "Stoney (Siler) Lake",
+        "year": 2024,
+        "latitude": 50.3944477,
+        "longitude": -113.8176395,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Sturgeon Lake",
+        "year": 2020,
+        "latitude": 55.09054769999999,
+        "longitude": -117.5170364,
+        "averageCellCount": 233
+    },
+    {
+        "city_name": "Sturgeon Lake",
+        "year": 2021,
+        "latitude": 55.09054769999999,
+        "longitude": -117.5170364,
+        "averageCellCount": 7567
+    },
+    {
+        "city_name": "Sturgeon Lake",
+        "year": 2022,
+        "latitude": 55.09054769999999,
+        "longitude": -117.5170364,
+        "averageCellCount": 1518
+    },
+    {
+        "city_name": "Sturgeon Lake",
+        "year": 2023,
+        "latitude": 55.09054769999999,
+        "longitude": -117.5170364,
+        "averageCellCount": 24000
+    },
+    {
+        "city_name": "Sturgeon Lake",
+        "year": 2024,
+        "latitude": 55.09054769999999,
+        "longitude": -117.5170364,
+        "averageCellCount": 1293
+    },
+    {
+        "city_name": "Summerside Residents Association Lake",
+        "year": 2021,
+        "latitude": 53.4175573,
+        "longitude": -113.4693289,
+        "averageCellCount": 1185
+    },
+    {
+        "city_name": "Summerside Residents Association Lake",
+        "year": 2022,
+        "latitude": 53.4175573,
+        "longitude": -113.4693289,
+        "averageCellCount": 17404
+    },
+    {
+        "city_name": "Sylvan Lake",
+        "year": 2020,
+        "latitude": 52.3065751,
+        "longitude": -114.09728,
+        "averageCellCount": 13721
+    },
+    {
+        "city_name": "Sylvan Lake",
+        "year": 2021,
+        "latitude": 52.3065751,
+        "longitude": -114.09728,
+        "averageCellCount": 332
+    },
+    {
+        "city_name": "Sylvan Lake",
+        "year": 2022,
+        "latitude": 52.3065751,
+        "longitude": -114.09728,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Sylvan Lake",
+        "year": 2023,
+        "latitude": 52.3065751,
+        "longitude": -114.09728,
+        "averageCellCount": 7223
+    },
+    {
+        "city_name": "Thunder Lake",
+        "year": 2021,
+        "latitude": 54.129071,
+        "longitude": -114.7622376,
+        "averageCellCount": 96229
+    },
+    {
+        "city_name": "Thunder Lake",
+        "year": 2022,
+        "latitude": 54.129071,
+        "longitude": -114.7622376,
+        "averageCellCount": 957841
+    },
+    {
+        "city_name": "Thunder Lake",
+        "year": 2023,
+        "latitude": 54.129071,
+        "longitude": -114.7622376,
+        "averageCellCount": 925206
+    },
+    {
+        "city_name": "Thunder Lake",
+        "year": 2024,
+        "latitude": 54.129071,
+        "longitude": -114.7622376,
+        "averageCellCount": 494688
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2019,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 35269
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2020,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 60579
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2021,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 3812
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2022,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 2522
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2023,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 3152
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2024,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 884
+    },
+    {
+        "city_name": "Wapasu Lake",
+        "year": 2021,
+        "latitude": 53.3586581,
+        "longitude": -111.6095854,
+        "averageCellCount": 33038
+    },
+    {
+        "city_name": "Wapasu Lake",
+        "year": 2022,
+        "latitude": 53.3586581,
+        "longitude": -111.6095854,
+        "averageCellCount": 6826
+    },
+    {
+        "city_name": "Wapasu Lake",
+        "year": 2023,
+        "latitude": 53.3586581,
+        "longitude": -111.6095854,
+        "averageCellCount": 6539
+    },
+    {
+        "city_name": "Wapasu Lake",
+        "year": 2024,
+        "latitude": 53.3586581,
+        "longitude": -111.6095854,
+        "averageCellCount": 6280
+    },
+    {
+        "city_name": "Winagami Lake",
+        "year": 2021,
+        "latitude": 55.6290111,
+        "longitude": -116.7426476,
+        "averageCellCount": 81593
+    },
+    {
+        "city_name": "Winagami Lake",
+        "year": 2022,
+        "latitude": 55.6290111,
+        "longitude": -116.7426476,
+        "averageCellCount": 815
+    },
+    {
+        "city_name": "Winagami Lake",
+        "year": 2023,
+        "latitude": 55.6290111,
+        "longitude": -116.7426476,
+        "averageCellCount": 184536
+    },
+    {
+        "city_name": "Winagami Lake",
+        "year": 2024,
+        "latitude": 55.6290111,
+        "longitude": -116.7426476,
+        "averageCellCount": 3065
+    },
+    {
+        "city_name": "Wizard Lake",
+        "year": 2021,
+        "latitude": 53.1099464,
+        "longitude": -113.8347615,
+        "averageCellCount": 2532
+    },
+    {
+        "city_name": "Wizard Lake",
+        "year": 2022,
+        "latitude": 53.1099464,
+        "longitude": -113.8347615,
+        "averageCellCount": 7946
+    },
+    {
+        "city_name": "Wizard Lake",
+        "year": 2023,
+        "latitude": 53.1099464,
+        "longitude": -113.8347615,
+        "averageCellCount": 12573
+    },
+    {
+        "city_name": "Wizard Lake",
+        "year": 2024,
+        "latitude": 53.1099464,
+        "longitude": -113.8347615,
+        "averageCellCount": 58
+    }
+]
