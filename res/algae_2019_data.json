@@ -1,0 +1,65 @@
+[
+    {
+        "city_name": "Bear Lake",
+        "year": 2019,
+        "latitude": 55.283333,
+        "longitude": -118.983333,
+        "averageCellCount": 55209
+    },
+    {
+        "city_name": "Floatingstone Lake",
+        "year": 2019,
+        "latitude": 54.2298124,
+        "longitude": -111.6292957,
+        "averageCellCount": 260597
+    },
+    {
+        "city_name": "Heritage Lake",
+        "year": 2019,
+        "latitude": 53.6125,
+        "longitude": -113.631944,
+        "averageCellCount": 7421
+    },
+    {
+        "city_name": "Jackfish Lake (Parkland County)",
+        "year": 2019,
+        "latitude": 53.4845517,
+        "longitude": -114.2414362,
+        "averageCellCount": 6168
+    },
+    {
+        "city_name": "Lac La Biche",
+        "year": 2019,
+        "latitude": 54.77420859999999,
+        "longitude": -111.9661447,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Minnie Lake",
+        "year": 2019,
+        "latitude": 54.2804779,
+        "longitude": -111.1015881,
+        "averageCellCount": 231667
+    },
+    {
+        "city_name": "Moose Lake",
+        "year": 2019,
+        "latitude": 54.2388078,
+        "longitude": -110.9069332,
+        "averageCellCount": 15688
+    },
+    {
+        "city_name": "Pigeon Lake",
+        "year": 2019,
+        "latitude": 53.0386329,
+        "longitude": -114.0953302,
+        "averageCellCount": 0
+    },
+    {
+        "city_name": "Wabamun Lake",
+        "year": 2019,
+        "latitude": 53.5465965,
+        "longitude": -114.5554829,
+        "averageCellCount": 35269
+    }
+]
