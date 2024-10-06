@@ -41,7 +41,7 @@ def canada():
 
     # Save the map to a static file
     map_file = 'canadaMap.html'
-    m.save(f"src/static/{map_file}")
+    m.save(f"static/{map_file}")
 
     return render_template("index.html", map_file=map_file)
 
@@ -65,7 +65,7 @@ def generate():
 
     # Save the map to a static file
     map_file = 'canadaMap.html'
-    m.save(f"src/static/{map_file}")
+    m.save(f"static/{map_file}")
 
     return render_template("index.html", map_file=map_file)
 
@@ -120,7 +120,7 @@ def get_province_data():
 
 
 def generate_heatmap(source, year, data):
-    df = pd.read_csv("res/carbonemissions.csv")
+    df = pd.read_csv("../res/carbonemissions.csv")
     #test source and year
     #set source and year 
     data['current_year'] = year #set the year so we can access it for the marker
@@ -207,7 +207,7 @@ def generate_heatmap(source, year, data):
 # #generate markers
 
 def generate_markers(data):
-    with open('src/popup_template.html', 'r') as file:
+    with open('popup_template.html', 'r') as file:
         template = Template(file.read())
 
     for i in range(len(data)):
