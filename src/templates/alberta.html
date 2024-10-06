@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CO2 Emissions Map</title>
+    <title>CO2 Emissions Map Alberta</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class="bg-dark bg-gradient">
@@ -14,13 +14,13 @@
                     <div class="card-header">
                         <div class="card-title d-flex justify-content-center mb-0">
 
-                            <h1>CO2 Emission Heat Map</h1>
+                            <h1>CO2 Emission Heat Map Alberta</h1>
                            
 
                         </div>
                     </div>
                     <div class="card-body">
-                    <form action="/generate" method="POST">
+                    <form action="/generateAlberta" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="source">Select Source:</label>
@@ -45,17 +45,17 @@
              <div class="col-md-2 bg-info">
                 <div class="card border-0">
                     <div class="card-body bg-info border-0">
-                        <form action="/alberta" method="POST">
-                            <button type="submit" name="region" value="Alberta" class="btn btn-block btn-dark">Alberta</button>
+                        <form action="/canada" method="POST">
+                            <button type="submit" name="region" value="Alberta" class="btn btn-block btn-dark">Main Page</button>
                         </form>
                     </div>
                 </div>
              </div>
         </div>
         <div class="row">
-        {% if map_file %}
+            {% if map_file %}
             <iframe src="{{ url_for('static', filename=map_file) }}" width="100%" height="500"></iframe>
-        {% endif %}
+            {% endif %}
         </div>
     </div>
 </body>
