@@ -19,8 +19,11 @@ def alberta():
 
 @app.route("/generateAlberta", methods=["POST"])
 def generateAlberta():
+    option = "Algae"
+    year = 2019
+    
     map_file = 'albertaMap.html'
-    alberta_map.generateAlbertaMap()
+    alberta_map.generateAlbertaMap(option, year, data)
     return render_template("alberta.html", map_file=map_file)
 
 @app.route("/canada", methods=["POST"])
