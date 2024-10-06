@@ -156,55 +156,55 @@ def generate_heatmap(source, year, data):
 
     HeatMap(heatmap_data, radius=50, blur=40, min_opacity=0.2).add_to(m)
 
-
-def generate_heatmap_over_time():
-    #load data
-    df = pd.read_csv("data/carbonemissions.csv")
-    #test source 
-    source = "Buildings"
-    filtered_rows = df.loc[(df["Source"] == source)
-                       & (df["Total"] == "y")
-                       & (df["Region"] != "Canada")  # Exclude rows where Region is Canada
-    ]        
-    
-    # Get unique years and initialize list to store data for each year
-    years = sorted(filtered_rows["Year"].unique())
-    heatmap_data_by_year = []     
-    #get max value of CO2
-    co2eq_values = filtered_rows["CO2eq"].values
-    #change datatype to float
-    co2eq_values = [float(num) for num in co2eq_values]
-    max_co2 = max(co2eq_values)
-
-    #loop through the years, 
-    for year in years:
-        year_data = []
-        #refine the filtered rows to rows in the current year so we can loop over them
-        yearly_filtered_rows = filtered_rows[filtered_rows["Year"] == year]
-        #iterate through yearly rows
-        for _, row in yearly_filtered_rows.iterrows():
-            #get the region name
-            region = row["Region"]
-            #get the row from our province dataframe
-            region_row = data[data['name'] == region]
-            #get the lat and lon values from our dataframe
-            if not region_row.empty:
-                lat = float(region_row['lat'].values[0])
-                lon = float(region_row['lon'].values[0])
-                # Ensure positive emission values
-                emission = float(row["CO2eq"]) / max_co2 # Minimum opacity level to avoid issues
-                #add the data to our year 
-                year_data.append([lat,lon,float(emission)])
-
-            # Add the year's data to the list
-        heatmap_data_by_year.append(year_data)
-        
-    # Create and add the HeatMapWithTime layer
-    HeatMapWithTime(heatmap_data_by_year, radius=20, blur=20).add_to(m)
-
-#generate_heatmap_over_time()
-    
-#generate markers
+#
+# def generate_heatmap_over_time():
+#     #load data
+#     df = pd.read_csv("data/carbonemissions.csv")
+#     #test source
+#     source = "Buildings"
+#     filtered_rows = df.loc[(df["Source"] == source)
+#                        & (df["Total"] == "y")
+#                        & (df["Region"] != "Canada")  # Exclude rows where Region is Canada
+#     ]
+#
+#     # Get unique years and initialize list to store data for each year
+#     years = sorted(filtered_rows["Year"].unique())
+#     heatmap_data_by_year = []
+#     #get max value of CO2
+#     co2eq_values = filtered_rows["CO2eq"].values
+#     #change datatype to float
+#     co2eq_values = [float(num) for num in co2eq_values]
+#     max_co2 = max(co2eq_values)
+#
+#     #loop through the years,
+#     for year in years:
+#         year_data = []
+#         #refine the filtered rows to rows in the current year so we can loop over them
+#         yearly_filtered_rows = filtered_rows[filtered_rows["Year"] == year]
+#         #iterate through yearly rows
+#         for _, row in yearly_filtered_rows.iterrows():
+#             #get the region name
+#             region = row["Region"]
+#             #get the row from our province dataframe
+#             region_row = data[data['name'] == region]
+#             #get the lat and lon values from our dataframe
+#             if not region_row.empty:
+#                 lat = float(region_row['lat'].values[0])
+#                 lon = float(region_row['lon'].values[0])
+#                 # Ensure positive emission values
+#                 emission = float(row["CO2eq"]) / max_co2 # Minimum opacity level to avoid issues
+#                 #add the data to our year
+#                 year_data.append([lat,lon,float(emission)])
+#
+#             # Add the year's data to the list
+#         heatmap_data_by_year.append(year_data)
+#
+#     # Create and add the HeatMapWithTime layer
+#     HeatMapWithTime(heatmap_data_by_year, radius=20, blur=20).add_to(m)
+#
+# #generate_heatmap_over_time()
+#
+# #generate markers
 
 def generate_markers(data):
     with open('src/popup_template.html', 'r') as file:
