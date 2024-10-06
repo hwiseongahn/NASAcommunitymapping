@@ -23,18 +23,20 @@
                     <form action="/generateAlberta" method="POST">
                         <div class="row">
                             <div class="col-md-6">
-                                <label for="source">Select Source:</label>
-                                <select name="source" id="source" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
-                                    <option value="Agriculture">Agriculture</option>
-                                    <option value="Buildings">Buildings</option>
-                                    <option value="Transport">Transport</option>
-                                    <option value="Heavy Industry">Heavy Industry</option>
-                                    <option value="Waste">Waste</option>
+                                <label for="option">Select Map Option:</label>
+                                <select name="option" id="source" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
+                                    <option value="Algae">Algae</option>
+                                    <option value="CO2">CO2</option>
                                 </select>
                             </div>
                             <div class="col-md-6">
                                 <label for="year">Select Year:</label>
-                                <input type="number" class="form-control bg-dark text-light" name="year" id="year" min="2000" max="2020" value="2020">
+                                <select name="source" id="source" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                </select>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-dark btn-block mt-2">Generate Map</button>
