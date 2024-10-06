@@ -1,7 +1,39 @@
+from flask import Flask, render_template, request
 import pandas as pd
 import folium
+import branca
+from jinja2 import Template
 from folium.plugins import HeatMap, HeatMapWithTime
-m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=4)
+
+app = Flask(__name__, template_folder='templates', static_folder='static')
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    map_file = None
+    return render_template("index.html", map_file=map_file)
+
+@app.route("/generate", methods=["POST"])
+def generate():
+    map_file = None
+    source = request.form['source']
+    year = int(request.form['year'])
+
+    # Get the province data
+    data = get_province_data()
+
+    global m
+    # Clear the map before generating a new one
+    m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=7)
+
+    generate_heatmap(source, year, data)  # Generate heatmap based on user input
+    generate_markers(data)  # Add markers based on the updated data
+
+    # Save the map to a static file
+    map_file = 'canadaMap.html'
+    m.save(f"src/static/{map_file}")
+
+    return render_template("index.html", map_file=map_file)
+
 
 def get_province_data():
     data = pd.DataFrame({
@@ -52,12 +84,7 @@ def get_province_data():
     return data
 
 
-data = get_province_data()
-
-
-
-
-def generate_heatmap(source, year):
+def generate_heatmap(source, year, data):
     df = pd.read_csv("res/carbonemissions.csv")
     #test source and year
     #set source and year 
@@ -94,7 +121,6 @@ def generate_heatmap(source, year):
 
     HeatMap(heatmap_data, radius=50, blur=40, min_opacity=0.2).add_to(m)
 
-generate_heatmap("Agriculture",2020)
 
 def generate_heatmap_over_time():
     #load data
@@ -141,24 +167,31 @@ def generate_heatmap_over_time():
     # Create and add the HeatMapWithTime layer
     HeatMapWithTime(heatmap_data_by_year, radius=20, blur=20).add_to(m)
 
-
 #generate_heatmap_over_time()
     
 #generate markers
 
-def generate_markers():
+def generate_markers(data):
+    with open('src/popup_template.html', 'r') as file:
+        template = Template(file.read())
+
     for i in range(len(data)):
         co2_value_formatted = f"{float(data.iloc[i]['co2_value']):.2f}"
-            
-        html = f"""<h1>{data.iloc[i]['name']}</h1>
-                    <h4>Source: {data.iloc[i]['current_source']}</h4>
-                    <h4>Year: {data.iloc[i]['current_year']}</h4>
-                 <h5><b>CO2 (kt)</b> {co2_value_formatted} kt</h5>"""
+        # Render the template with data
+        html = template.render(
+            name=data.iloc[i]['name'],
+            current_source=data.iloc[i]['current_source'],
+            current_year=data.iloc[i]['current_year'],
+            co2_value=co2_value_formatted
+        )
+        iframe = branca.element.IFrame(html=html, width=250, height=175)
+        popup = folium.Popup(iframe, max_width=500) 
+        
         folium.Marker(
             location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
-            popup=html
+            popup=popup
         ).add_to(m)
 
-generate_markers()
 
-m.save('canadaMap.html')
+if __name__ == "__main__":
+    app.run(debug=True, port=9000)

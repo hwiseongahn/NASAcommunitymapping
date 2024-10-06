@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2 Emissions Map</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="bg-dark bg-gradient">
+    <div class="container p-3">
+        <div class="row mb-2">
+            <div class="col-md-12 w-100">
+                <div class="card bg-info text-dark">
+                    <div class="card-header">
+                        <div class="card-title d-flex justify-content-center mb-0">
+                            <h1>CO2 Emission Heat Map</h1>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                    <form action="/generate" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="source">Select Source:</label>
+                                <select name="source" id="source" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
+                                    <option value="Agriculture">Agriculture</option>
+                                    <option value="Buildings">Buildings</option>
+                                    <option value="Transport">Transport</option>
+                                    <option value="Heavy Industry">Heavy Industry</option>
+                                    <option value="Waste">Waste</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="year">Select Year:</label>
+                                <input type="number" class="form-control bg-dark text-light" name="year" id="year" min="2000" max="2020" value="2020">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-dark btn-block mt-2">Generate Map</button>
+                    </form>
+                    </div>
+                 </div>
+             </div>
+        </div>
+        <div class="row">
+        {% if map_file %}
+            <iframe src="{{ url_for('static', filename=map_file) }}" width="100%" height="500"></iframe>
+        {% endif %}
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
