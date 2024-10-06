@@ -43,6 +43,7 @@ def canada():
     map_file = None
     source = 'Agriculture'   
     year = 2020
+    
 
     # Get the province data
     data = get_province_data()
@@ -51,8 +52,8 @@ def canada():
     # Clear the map before generating a new one
     m = folium.Map(location=[56.1304, -90.3468], tiles="OpenStreetMap", zoom_start=3)
 
-    generate_heatmap(source, year, data)  # Generate heatmap based on user input
-    generate_markers(data)  # Add markers based on the updated data
+    generate_heatmap(source, year, data,m)  # Generate heatmap based on user input
+    generate_markers(data,m)  # Add markers based on the updated data
 
     # Save the map to a static file
     map_file = 'canadaMap.html'
