@@ -4,6 +4,7 @@ import folium
 import branca
 from jinja2 import Template
 from folium.plugins import HeatMap, HeatMapWithTime
+import alberta_map
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
@@ -12,11 +13,45 @@ def index():
     map_file = None
     return render_template("index.html", map_file=map_file)
 
+@app.route("/alberta", methods=["POST"])
+def alberta():
+    return render_template("alberta.html")
+
+@app.route("/generateAlberta", methods=["POST"])
+def generateAlberta():
+    map_file = 'albertaMap.html'
+    alberta_map.generateAlbertaMap()
+    return render_template("alberta.html", map_file=map_file)
+
+@app.route("/canada", methods=["POST"])
+def canada():
+    map_file = None
+    source = 'Agriculture'   
+    year = 2020
+
+    # Get the province data
+    data = get_province_data()
+
+    global m
+    # Clear the map before generating a new one
+    m = folium.Map(location=[56.1304, -90.3468], tiles="OpenStreetMap", zoom_start=3)
+
+    generate_heatmap(source, year, data)  # Generate heatmap based on user input
+    generate_markers(data)  # Add markers based on the updated data
+
+    # Save the map to a static file
+    map_file = 'canadaMap.html'
+    m.save(f"src/static/{map_file}")
+
+    return render_template("index.html", map_file=map_file)
+
+
 @app.route("/generate", methods=["POST"])
 def generate():
     map_file = None
-    source = request.form['source']
+    source = request.form['source']    
     year = int(request.form['year'])
+
 
     # Get the province data
     data = get_province_data()
