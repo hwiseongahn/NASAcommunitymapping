@@ -23,7 +23,7 @@ def generate():
 
     global m
     # Clear the map before generating a new one
-    m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=7)
+    m = folium.Map(location=[56.1304, -90.3468], tiles="OpenStreetMap", zoom_start=3)
 
     generate_heatmap(source, year, data)  # Generate heatmap based on user input
     generate_markers(data)  # Add markers based on the updated data
