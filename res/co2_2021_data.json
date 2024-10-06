@@ -1,0 +1,2053 @@
+[
+    {
+        "city_name": "Red Deer",
+        "year": 2021,
+        "latitude": 52.2690328,
+        "longitude": -113.8114955,
+        "co2_Value": 81087.325
+    },
+    {
+        "city_name": "Drumheller",
+        "year": 2021,
+        "latitude": 51.4619438,
+        "longitude": -112.7106587,
+        "co2_Value": 23447.3875
+    },
+    {
+        "city_name": "Starland County",
+        "year": 2021,
+        "latitude": 51.6468713,
+        "longitude": -112.457352,
+        "co2_Value": 6107.934
+    },
+    {
+        "city_name": "Kneehill County",
+        "year": 2021,
+        "latitude": 51.649339,
+        "longitude": -113.3110382,
+        "co2_Value": 32116.16405
+    },
+    {
+        "city_name": "Warner County No. 5",
+        "year": 2021,
+        "latitude": 49.2807071,
+        "longitude": -112.113808,
+        "co2_Value": 96973.05575
+    },
+    {
+        "city_name": "Wainwright No. 61",
+        "year": 2021,
+        "latitude": 52.8849273,
+        "longitude": -110.6457099,
+        "co2_Value": 10985.1965
+    },
+    {
+        "city_name": "Wainwright",
+        "year": 2021,
+        "latitude": 52.8431123,
+        "longitude": -110.8504203,
+        "co2_Value": 3.77595
+    },
+    {
+        "city_name": "Red Deer County",
+        "year": 2021,
+        "latitude": 52.1499388,
+        "longitude": -113.9063245,
+        "co2_Value": 17747.4298
+    },
+    {
+        "city_name": "Wheatland County",
+        "year": 2021,
+        "latitude": 51.0004921,
+        "longitude": -113.0246454,
+        "co2_Value": 32763.35375
+    },
+    {
+        "city_name": "Stettler County No. 6",
+        "year": 2021,
+        "latitude": 52.1517461,
+        "longitude": -112.6046251,
+        "co2_Value": 7634.2552
+    },
+    {
+        "city_name": "Lacombe County",
+        "year": 2021,
+        "latitude": 52.4303621,
+        "longitude": -113.6482619,
+        "co2_Value": 29373.01565
+    },
+    {
+        "city_name": "Innisfail",
+        "year": 2021,
+        "latitude": 52.0274086,
+        "longitude": -113.9501267,
+        "co2_Value": 11.99963
+    },
+    {
+        "city_name": "Flagstaff County",
+        "year": 2021,
+        "latitude": 52.6530943,
+        "longitude": -111.8823074,
+        "co2_Value": 21533.85515
+    },
+    {
+        "city_name": "Leduc",
+        "year": 2021,
+        "latitude": 53.2647566,
+        "longitude": -113.5525216,
+        "co2_Value": 41544.0
+    },
+    {
+        "city_name": "Paintearth County No. 18",
+        "year": 2021,
+        "latitude": 52.1430561,
+        "longitude": -111.7445106,
+        "co2_Value": 60695.5275
+    },
+    {
+        "city_name": "Camrose County",
+        "year": 2021,
+        "latitude": 52.863976,
+        "longitude": -112.6405789,
+        "co2_Value": 41224.11983
+    },
+    {
+        "city_name": "Fort Saskatchewan",
+        "year": 2021,
+        "latitude": 53.6962239,
+        "longitude": -113.2163654,
+        "co2_Value": 18574.66785
+    },
+    {
+        "city_name": "Edmonton",
+        "year": 2021,
+        "latitude": 53.5460983,
+        "longitude": -113.4937266,
+        "co2_Value": 276715.2747
+    },
+    {
+        "city_name": "Lethbridge",
+        "year": 2021,
+        "latitude": 49.6956181,
+        "longitude": -112.8451067,
+        "co2_Value": 23.86
+    },
+    {
+        "city_name": "Cardston County",
+        "year": 2021,
+        "latitude": 49.2400296,
+        "longitude": -113.1395913,
+        "co2_Value": 0.0199
+    },
+    {
+        "city_name": "Rocky Mountain House",
+        "year": 2021,
+        "latitude": 52.3776203,
+        "longitude": -114.9137542,
+        "co2_Value": 12982.669
+    },
+    {
+        "city_name": "Newell County",
+        "year": 2021,
+        "latitude": 50.7465051,
+        "longitude": -112.1179048,
+        "co2_Value": 49055.71022
+    },
+    {
+        "city_name": "Brooks",
+        "year": 2021,
+        "latitude": 50.56570929999999,
+        "longitude": -111.8977868,
+        "co2_Value": 14428.5
+    },
+    {
+        "city_name": "Alix",
+        "year": 2021,
+        "latitude": 52.3987522,
+        "longitude": -113.1929197,
+        "co2_Value": 10.82
+    },
+    {
+        "city_name": "Ponoka County",
+        "year": 2021,
+        "latitude": 52.70448589999999,
+        "longitude": -114.2713021,
+        "co2_Value": 23764.0227
+    },
+    {
+        "city_name": "Lac la Biche County",
+        "year": 2021,
+        "latitude": 55.1433561,
+        "longitude": -111.7512942,
+        "co2_Value": 21673.35153
+    },
+    {
+        "city_name": "Clearwater County",
+        "year": 2021,
+        "latitude": 52.3241323,
+        "longitude": -115.5611493,
+        "co2_Value": 166681.9758
+    },
+    {
+        "city_name": "Minburn County No. 27",
+        "year": 2021,
+        "latitude": 53.41942969999999,
+        "longitude": -111.6511063,
+        "co2_Value": 810.085
+    },
+    {
+        "city_name": "Whitecourt",
+        "year": 2021,
+        "latitude": 54.1425199,
+        "longitude": -115.6766396,
+        "co2_Value": 593.82
+    },
+    {
+        "city_name": "Cochrane",
+        "year": 2021,
+        "latitude": 51.1917439,
+        "longitude": -114.4667528,
+        "co2_Value": 4.2658
+    },
+    {
+        "city_name": "Airdrie",
+        "year": 2021,
+        "latitude": 51.29269679999999,
+        "longitude": -114.0134113,
+        "co2_Value": 10679.375
+    },
+    {
+        "city_name": "Westlock County",
+        "year": 2021,
+        "latitude": 54.2548428,
+        "longitude": -113.8919141,
+        "co2_Value": 510.1325
+    },
+    {
+        "city_name": "Woodlands County",
+        "year": 2021,
+        "latitude": 54.2791115,
+        "longitude": -115.4892484,
+        "co2_Value": 14891.75653
+    },
+    {
+        "city_name": "Beaver County",
+        "year": 2021,
+        "latitude": 53.1667335,
+        "longitude": -112.0234172,
+        "co2_Value": 26239.97188
+    },
+    {
+        "city_name": "Medicine Hat",
+        "year": 2021,
+        "latitude": 50.0290218,
+        "longitude": -110.7031976,
+        "co2_Value": 9180.18165
+    },
+    {
+        "city_name": "Forty Mile County No. 8",
+        "year": 2021,
+        "latitude": 49.5536047,
+        "longitude": -111.1561075,
+        "co2_Value": 3371.644
+    },
+    {
+        "city_name": "Cypress County",
+        "year": 2021,
+        "latitude": 50.0228165,
+        "longitude": -110.4765127,
+        "co2_Value": 145875.2055
+    },
+    {
+        "city_name": "Willow Creek No. 26",
+        "year": 2021,
+        "latitude": 50.015466,
+        "longitude": -113.5466891,
+        "co2_Value": 5395.65885
+    },
+    {
+        "city_name": "Lethbridge County",
+        "year": 2021,
+        "latitude": 49.8199796,
+        "longitude": -112.8319593,
+        "co2_Value": 8963.5456
+    },
+    {
+        "city_name": "Taber, M.D.",
+        "year": 2021,
+        "latitude": 49.9604217,
+        "longitude": -112.1434347,
+        "co2_Value": 4068.43248
+    },
+    {
+        "city_name": "Taber",
+        "year": 2021,
+        "latitude": 49.7818493,
+        "longitude": -112.1496791,
+        "co2_Value": 38949.7075
+    },
+    {
+        "city_name": "Pincher Creek No. 9",
+        "year": 2021,
+        "latitude": 49.3814194,
+        "longitude": -114.0746567,
+        "co2_Value": 8104.14523
+    },
+    {
+        "city_name": "Pincher Creek",
+        "year": 2021,
+        "latitude": 49.484885,
+        "longitude": -113.9440351,
+        "co2_Value": 7408.8375
+    },
+    {
+        "city_name": "Special Area No. 2",
+        "year": 2021,
+        "latitude": 51.5372601,
+        "longitude": -111.6675467,
+        "co2_Value": 7993.1561
+    },
+    {
+        "city_name": "Special Area No. 3",
+        "year": 2021,
+        "latitude": 51.2680464,
+        "longitude": -110.768301,
+        "co2_Value": 4544.46
+    },
+    {
+        "city_name": "Special Area No. 4",
+        "year": 2021,
+        "latitude": 51.971819,
+        "longitude": -110.7697137,
+        "co2_Value": 7175.48675
+    },
+    {
+        "city_name": "Siksika 146",
+        "year": 2021,
+        "latitude": 50.7772558,
+        "longitude": -112.9356887,
+        "co2_Value": 3983.75
+    },
+    {
+        "city_name": "Foothills County",
+        "year": 2021,
+        "latitude": 50.6008365,
+        "longitude": -114.0722624,
+        "co2_Value": 81416.13455
+    },
+    {
+        "city_name": "High River",
+        "year": 2021,
+        "latitude": 50.5767481,
+        "longitude": -113.8715613,
+        "co2_Value": 18711.2775
+    },
+    {
+        "city_name": "Rocky View County",
+        "year": 2021,
+        "latitude": 51.22201039999999,
+        "longitude": -113.8567226,
+        "co2_Value": 55463.22605
+    },
+    {
+        "city_name": "Calgary",
+        "year": 2021,
+        "latitude": 51.04473309999999,
+        "longitude": -114.0718831,
+        "co2_Value": 407133.7725
+    },
+    {
+        "city_name": "Mountain View County",
+        "year": 2021,
+        "latitude": 51.64396989999999,
+        "longitude": -114.1704323,
+        "co2_Value": 30643.61298
+    },
+    {
+        "city_name": "Camrose",
+        "year": 2021,
+        "latitude": 53.0173444,
+        "longitude": -112.8251176,
+        "co2_Value": 16163.1466
+    },
+    {
+        "city_name": "Provost No. 52",
+        "year": 2021,
+        "latitude": 52.3710691,
+        "longitude": -110.5260144,
+        "co2_Value": 3800.4356
+    },
+    {
+        "city_name": "Smoky River No. 130",
+        "year": 2021,
+        "latitude": 55.587325,
+        "longitude": -117.1963556,
+        "co2_Value": 2140.75
+    },
+    {
+        "city_name": "Vermilion River County",
+        "year": 2021,
+        "latitude": 53.4477555,
+        "longitude": -110.5168128,
+        "co2_Value": 23085.99525
+    },
+    {
+        "city_name": "Northern Sunrise County",
+        "year": 2021,
+        "latitude": 56.47547609999999,
+        "longitude": -116.2772478,
+        "co2_Value": 21049.07283
+    },
+    {
+        "city_name": "Big Lakes County",
+        "year": 2021,
+        "latitude": 55.4244421,
+        "longitude": -115.8451546,
+        "co2_Value": 20841.30353
+    },
+    {
+        "city_name": "Opportunity No. 17",
+        "year": 2021,
+        "latitude": 56.31767199999999,
+        "longitude": -113.4349116,
+        "co2_Value": 30243.23747
+    },
+    {
+        "city_name": "Lac Ste. Anne County",
+        "year": 2021,
+        "latitude": 53.7818222,
+        "longitude": -114.3750458,
+        "co2_Value": 0.18873
+    },
+    {
+        "city_name": "Birch Hills County",
+        "year": 2021,
+        "latitude": 55.7579867,
+        "longitude": -118.0771146,
+        "co2_Value": 2742.15825
+    },
+    {
+        "city_name": "Saddle Hills County",
+        "year": 2021,
+        "latitude": 55.85061100000001,
+        "longitude": -119.2417603,
+        "co2_Value": 178955.2266
+    },
+    {
+        "city_name": "Fairview No. 136",
+        "year": 2021,
+        "latitude": 56.0043273,
+        "longitude": -118.4498817,
+        "co2_Value": 1154.97725
+    },
+    {
+        "city_name": "Grande Prairie",
+        "year": 2021,
+        "latitude": 55.170691,
+        "longitude": -118.7884808,
+        "co2_Value": 5633.96468
+    },
+    {
+        "city_name": "Drayton Valley",
+        "year": 2021,
+        "latitude": 53.2214945,
+        "longitude": -114.976746,
+        "co2_Value": 13.25
+    },
+    {
+        "city_name": "Brazeau County",
+        "year": 2021,
+        "latitude": 53.253376,
+        "longitude": -115.0997515,
+        "co2_Value": 64073.18843
+    },
+    {
+        "city_name": "Parkland County",
+        "year": 2021,
+        "latitude": 53.4754873,
+        "longitude": -114.0863102,
+        "co2_Value": 5430.15613
+    },
+    {
+        "city_name": "Lloydminster (Part)",
+        "year": 2021,
+        "latitude": 53.2779625,
+        "longitude": -110.0061451,
+        "co2_Value": 417.66695
+    },
+    {
+        "city_name": "Stony Plain",
+        "year": 2021,
+        "latitude": 53.5291419,
+        "longitude": -114.0018178,
+        "co2_Value": 1.56253
+    },
+    {
+        "city_name": "Strathcona County",
+        "year": 2021,
+        "latitude": 53.53267760000001,
+        "longitude": -113.1553199,
+        "co2_Value": 46881.86568
+    },
+    {
+        "city_name": "Sturgeon County",
+        "year": 2021,
+        "latitude": 53.81567,
+        "longitude": -113.562732,
+        "co2_Value": 118957.286
+    },
+    {
+        "city_name": "Mackenzie County",
+        "year": 2021,
+        "latitude": 58.83213989999999,
+        "longitude": -117.103732,
+        "co2_Value": 3710.16325
+    },
+    {
+        "city_name": "Improvement District No. 349",
+        "year": 2021,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "co2_Value": 14219.9283
+    },
+    {
+        "city_name": "Clear Hills",
+        "year": 2021,
+        "latitude": 56.9924812,
+        "longitude": -118.9976094,
+        "co2_Value": 4094.654
+    },
+    {
+        "city_name": "Cold Lake 149",
+        "year": 2021,
+        "latitude": 54.2858374,
+        "longitude": -110.266284,
+        "co2_Value": 10947.842
+    },
+    {
+        "city_name": "Canmore",
+        "year": 2021,
+        "latitude": 51.08836660000001,
+        "longitude": -115.3479101,
+        "co2_Value": 0.4149
+    },
+    {
+        "city_name": "Fox Creek",
+        "year": 2021,
+        "latitude": 54.4009429,
+        "longitude": -116.8044668,
+        "co2_Value": 40.12705
+    },
+    {
+        "city_name": "Greenview No. 16",
+        "year": 2021,
+        "latitude": 54.70161909999999,
+        "longitude": -118.0739397,
+        "co2_Value": 721588.7515
+    },
+    {
+        "city_name": "Grande Prairie County No. 1",
+        "year": 2021,
+        "latitude": 55.2661007,
+        "longitude": -119.2462848,
+        "co2_Value": 121058.8274
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2021,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "co2_Value": 11.3225
+    },
+    {
+        "city_name": "Bonnyville No. 87",
+        "year": 2021,
+        "latitude": 54.5982539,
+        "longitude": -110.6971896,
+        "co2_Value": 32582.70505
+    },
+    {
+        "city_name": "St. Paul County No. 19",
+        "year": 2021,
+        "latitude": 53.8768282,
+        "longitude": -111.1488003,
+        "co2_Value": 5720.637
+    },
+    {
+        "city_name": "Improvement District No. 25 Willmore Wilderness",
+        "year": 2021,
+        "latitude": 53.6068436,
+        "longitude": -118.9998812,
+        "co2_Value": 5478.03278
+    },
+    {
+        "city_name": "Kananaskis",
+        "year": 2021,
+        "latitude": 50.7884532,
+        "longitude": -114.8147983,
+        "co2_Value": 8287.43683
+    },
+    {
+        "city_name": "Bighorn No. 8",
+        "year": 2021,
+        "latitude": 51.42843689999999,
+        "longitude": -115.134649,
+        "co2_Value": 8360.41865
+    },
+    {
+        "city_name": "Improvement District No.  9 Banff",
+        "year": 2021,
+        "latitude": 51.5518011,
+        "longitude": -116.1458528,
+        "co2_Value": 0.09205
+    },
+    {
+        "city_name": "Wood Buffalo",
+        "year": 2021,
+        "latitude": 57.6066083,
+        "longitude": -111.6495855,
+        "co2_Value": 1049156.042
+    },
+    {
+        "city_name": "Leduc County",
+        "year": 2021,
+        "latitude": 53.2639063,
+        "longitude": -113.5394679,
+        "co2_Value": 85278.0297
+    },
+    {
+        "city_name": "Wetaskiwin County No. 10",
+        "year": 2021,
+        "latitude": 52.9743112,
+        "longitude": -113.9018395,
+        "co2_Value": 12998.111
+    },
+    {
+        "city_name": "Northern Lights County",
+        "year": 2021,
+        "latitude": 57.71454309999999,
+        "longitude": -117.6594002,
+        "co2_Value": 2433.64525
+    },
+    {
+        "city_name": "High Level",
+        "year": 2021,
+        "latitude": 58.50706229999999,
+        "longitude": -117.140307,
+        "co2_Value": 8399.9125
+    },
+    {
+        "city_name": "Athabasca County",
+        "year": 2021,
+        "latitude": 54.8346278,
+        "longitude": -112.8709095,
+        "co2_Value": 4306.3775
+    },
+    {
+        "city_name": "Lesser Slave River No.124",
+        "year": 2021,
+        "latitude": 55.3498429,
+        "longitude": -114.4603559,
+        "co2_Value": 35268.8398
+    },
+    {
+        "city_name": "Lamont County",
+        "year": 2021,
+        "latitude": 53.7901566,
+        "longitude": -112.5577641,
+        "co2_Value": 1491.18295
+    },
+    {
+        "city_name": "Yellowhead County",
+        "year": 2021,
+        "latitude": 53.5119663,
+        "longitude": -116.7743827,
+        "co2_Value": 474545.2216
+    },
+    {
+        "city_name": "Hinton",
+        "year": 2021,
+        "latitude": 53.399067,
+        "longitude": -117.5794057,
+        "co2_Value": 48114.52403
+    },
+    {
+        "city_name": "Edson",
+        "year": 2021,
+        "latitude": 53.58542199999999,
+        "longitude": -116.4337219,
+        "co2_Value": 189.875
+    },
+    {
+        "city_name": "Redwater",
+        "year": 2021,
+        "latitude": 53.9519858,
+        "longitude": -113.1089245,
+        "co2_Value": 282.3285
+    },
+    {
+        "city_name": "Red Deer",
+        "year": 2021,
+        "latitude": 52.2690328,
+        "longitude": -113.8114955,
+        "co2_Value": 67350.3888
+    },
+    {
+        "city_name": "Drumheller",
+        "year": 2021,
+        "latitude": 51.4619438,
+        "longitude": -112.7106587,
+        "co2_Value": 174.97
+    },
+    {
+        "city_name": "Starland County",
+        "year": 2021,
+        "latitude": 51.6468713,
+        "longitude": -112.457352,
+        "co2_Value": 43317.23258
+    },
+    {
+        "city_name": "Kneehill County",
+        "year": 2021,
+        "latitude": 51.649339,
+        "longitude": -113.3110382,
+        "co2_Value": 126894.5129
+    },
+    {
+        "city_name": "Warner County No. 5",
+        "year": 2021,
+        "latitude": 49.2807071,
+        "longitude": -112.113808,
+        "co2_Value": 73987.69924
+    },
+    {
+        "city_name": "Wainwright No. 61",
+        "year": 2021,
+        "latitude": 52.8849273,
+        "longitude": -110.6457099,
+        "co2_Value": 1275.67425
+    },
+    {
+        "city_name": "Wainwright",
+        "year": 2021,
+        "latitude": 52.8431123,
+        "longitude": -110.8504203,
+        "co2_Value": 7762.569
+    },
+    {
+        "city_name": "Red Deer County",
+        "year": 2021,
+        "latitude": 52.1499388,
+        "longitude": -113.9063245,
+        "co2_Value": 49879.37734
+    },
+    {
+        "city_name": "Wheatland County",
+        "year": 2021,
+        "latitude": 51.0004921,
+        "longitude": -113.0246454,
+        "co2_Value": 1304213.834
+    },
+    {
+        "city_name": "Stettler County No. 6",
+        "year": 2021,
+        "latitude": 52.1517461,
+        "longitude": -112.6046251,
+        "co2_Value": 35316.79208
+    },
+    {
+        "city_name": "Lacombe County",
+        "year": 2021,
+        "latitude": 52.4303621,
+        "longitude": -113.6482619,
+        "co2_Value": 3862030.135
+    },
+    {
+        "city_name": "Innisfail",
+        "year": 2021,
+        "latitude": 52.0274086,
+        "longitude": -113.9501267,
+        "co2_Value": 22301.98702
+    },
+    {
+        "city_name": "Flagstaff County",
+        "year": 2021,
+        "latitude": 52.6530943,
+        "longitude": -111.8823074,
+        "co2_Value": 1101302.718
+    },
+    {
+        "city_name": "Leduc",
+        "year": 2021,
+        "latitude": 53.2647566,
+        "longitude": -113.5525216,
+        "co2_Value": 2335.63
+    },
+    {
+        "city_name": "Paintearth County No. 18",
+        "year": 2021,
+        "latitude": 52.1430561,
+        "longitude": -111.7445106,
+        "co2_Value": 306375.1878
+    },
+    {
+        "city_name": "Camrose County",
+        "year": 2021,
+        "latitude": 52.863976,
+        "longitude": -112.6405789,
+        "co2_Value": 65017.92276
+    },
+    {
+        "city_name": "Fort Saskatchewan",
+        "year": 2021,
+        "latitude": 53.6962239,
+        "longitude": -113.2163654,
+        "co2_Value": 2609368.567
+    },
+    {
+        "city_name": "Edmonton",
+        "year": 2021,
+        "latitude": 53.5460983,
+        "longitude": -113.4937266,
+        "co2_Value": 2324893.7
+    },
+    {
+        "city_name": "Lethbridge",
+        "year": 2021,
+        "latitude": 49.6956181,
+        "longitude": -112.8451067,
+        "co2_Value": 49571.594
+    },
+    {
+        "city_name": "Cardston County",
+        "year": 2021,
+        "latitude": 49.2400296,
+        "longitude": -113.1395913,
+        "co2_Value": 10.82814
+    },
+    {
+        "city_name": "Rocky Mountain House",
+        "year": 2021,
+        "latitude": 52.3776203,
+        "longitude": -114.9137542,
+        "co2_Value": 1560.1543
+    },
+    {
+        "city_name": "Newell County",
+        "year": 2021,
+        "latitude": 50.7465051,
+        "longitude": -112.1179048,
+        "co2_Value": 186347.8007
+    },
+    {
+        "city_name": "Brooks",
+        "year": 2021,
+        "latitude": 50.56570929999999,
+        "longitude": -111.8977868,
+        "co2_Value": 194.5
+    },
+    {
+        "city_name": "Alix",
+        "year": 2021,
+        "latitude": 52.3987522,
+        "longitude": -113.1929197,
+        "co2_Value": 21894.53164
+    },
+    {
+        "city_name": "Ponoka County",
+        "year": 2021,
+        "latitude": 52.70448589999999,
+        "longitude": -114.2713021,
+        "co2_Value": 411964.5327
+    },
+    {
+        "city_name": "Lac la Biche County",
+        "year": 2021,
+        "latitude": 55.1433561,
+        "longitude": -111.7512942,
+        "co2_Value": 3643037.007
+    },
+    {
+        "city_name": "Clearwater County",
+        "year": 2021,
+        "latitude": 52.3241323,
+        "longitude": -115.5611493,
+        "co2_Value": 1447274.193
+    },
+    {
+        "city_name": "Minburn County No. 27",
+        "year": 2021,
+        "latitude": 53.41942969999999,
+        "longitude": -111.6511063,
+        "co2_Value": 14472.1842
+    },
+    {
+        "city_name": "Whitecourt",
+        "year": 2021,
+        "latitude": 54.1425199,
+        "longitude": -115.6766396,
+        "co2_Value": 108587.5499
+    },
+    {
+        "city_name": "Cochrane",
+        "year": 2021,
+        "latitude": 51.1917439,
+        "longitude": -114.4667528,
+        "co2_Value": 8854.394
+    },
+    {
+        "city_name": "Airdrie",
+        "year": 2021,
+        "latitude": 51.29269679999999,
+        "longitude": -114.0134113,
+        "co2_Value": 287790.542
+    },
+    {
+        "city_name": "Westlock County",
+        "year": 2021,
+        "latitude": 54.2548428,
+        "longitude": -113.8919141,
+        "co2_Value": 1053.6479
+    },
+    {
+        "city_name": "Woodlands County",
+        "year": 2021,
+        "latitude": 54.2791115,
+        "longitude": -115.4892484,
+        "co2_Value": 334914.814
+    },
+    {
+        "city_name": "Beaver County",
+        "year": 2021,
+        "latitude": 53.1667335,
+        "longitude": -112.0234172,
+        "co2_Value": 23938.50154
+    },
+    {
+        "city_name": "Medicine Hat",
+        "year": 2021,
+        "latitude": 50.0290218,
+        "longitude": -110.7031976,
+        "co2_Value": 3096118.801
+    },
+    {
+        "city_name": "Forty Mile County No. 8",
+        "year": 2021,
+        "latitude": 49.5536047,
+        "longitude": -111.1561075,
+        "co2_Value": 18319.533
+    },
+    {
+        "city_name": "Cypress County",
+        "year": 2021,
+        "latitude": 50.0228165,
+        "longitude": -110.4765127,
+        "co2_Value": 671859.3315
+    },
+    {
+        "city_name": "Willow Creek No. 26",
+        "year": 2021,
+        "latitude": 50.015466,
+        "longitude": -113.5466891,
+        "co2_Value": 23352.33759
+    },
+    {
+        "city_name": "Lethbridge County",
+        "year": 2021,
+        "latitude": 49.8199796,
+        "longitude": -112.8319593,
+        "co2_Value": 66650.4335
+    },
+    {
+        "city_name": "Taber, M.D.",
+        "year": 2021,
+        "latitude": 49.9604217,
+        "longitude": -112.1434347,
+        "co2_Value": 46701.88903
+    },
+    {
+        "city_name": "Taber",
+        "year": 2021,
+        "latitude": 49.7818493,
+        "longitude": -112.1496791,
+        "co2_Value": 83974.3282
+    },
+    {
+        "city_name": "Pincher Creek No. 9",
+        "year": 2021,
+        "latitude": 49.3814194,
+        "longitude": -114.0746567,
+        "co2_Value": 292453.457
+    },
+    {
+        "city_name": "Pincher Creek",
+        "year": 2021,
+        "latitude": 49.484885,
+        "longitude": -113.9440351,
+        "co2_Value": 21211.9292
+    },
+    {
+        "city_name": "Special Area No. 2",
+        "year": 2021,
+        "latitude": 51.5372601,
+        "longitude": -111.6675467,
+        "co2_Value": 2220934.149
+    },
+    {
+        "city_name": "Special Area No. 3",
+        "year": 2021,
+        "latitude": 51.2680464,
+        "longitude": -110.768301,
+        "co2_Value": 10545.9173
+    },
+    {
+        "city_name": "Special Area No. 4",
+        "year": 2021,
+        "latitude": 51.971819,
+        "longitude": -110.7697137,
+        "co2_Value": 35925.19371
+    },
+    {
+        "city_name": "Siksika 146",
+        "year": 2021,
+        "latitude": 50.7772558,
+        "longitude": -112.9356887,
+        "co2_Value": 5059.61
+    },
+    {
+        "city_name": "Foothills County",
+        "year": 2021,
+        "latitude": 50.6008365,
+        "longitude": -114.0722624,
+        "co2_Value": 80710.21151
+    },
+    {
+        "city_name": "High River",
+        "year": 2021,
+        "latitude": 50.5767481,
+        "longitude": -113.8715613,
+        "co2_Value": 40684.37
+    },
+    {
+        "city_name": "Rocky View County",
+        "year": 2021,
+        "latitude": 51.22201039999999,
+        "longitude": -113.8567226,
+        "co2_Value": 1413858.207
+    },
+    {
+        "city_name": "Calgary",
+        "year": 2021,
+        "latitude": 51.04473309999999,
+        "longitude": -114.0718831,
+        "co2_Value": 7799312.914
+    },
+    {
+        "city_name": "Mountain View County",
+        "year": 2021,
+        "latitude": 51.64396989999999,
+        "longitude": -114.1704323,
+        "co2_Value": 557966.4854
+    },
+    {
+        "city_name": "Camrose",
+        "year": 2021,
+        "latitude": 53.0173444,
+        "longitude": -112.8251176,
+        "co2_Value": 2735.15876
+    },
+    {
+        "city_name": "Provost No. 52",
+        "year": 2021,
+        "latitude": 52.3710691,
+        "longitude": -110.5260144,
+        "co2_Value": 42838.73311
+    },
+    {
+        "city_name": "Smoky River No. 130",
+        "year": 2021,
+        "latitude": 55.587325,
+        "longitude": -117.1963556,
+        "co2_Value": 8892.239
+    },
+    {
+        "city_name": "Vermilion River County",
+        "year": 2021,
+        "latitude": 53.4477555,
+        "longitude": -110.5168128,
+        "co2_Value": 26030.3211
+    },
+    {
+        "city_name": "Northern Sunrise County",
+        "year": 2021,
+        "latitude": 56.47547609999999,
+        "longitude": -116.2772478,
+        "co2_Value": 733224.537
+    },
+    {
+        "city_name": "Big Lakes County",
+        "year": 2021,
+        "latitude": 55.4244421,
+        "longitude": -115.8451546,
+        "co2_Value": 222804.1459
+    },
+    {
+        "city_name": "Opportunity No. 17",
+        "year": 2021,
+        "latitude": 56.31767199999999,
+        "longitude": -113.4349116,
+        "co2_Value": 71882.60895
+    },
+    {
+        "city_name": "Lac Ste. Anne County",
+        "year": 2021,
+        "latitude": 53.7818222,
+        "longitude": -114.3750458,
+        "co2_Value": 337.46287
+    },
+    {
+        "city_name": "Birch Hills County",
+        "year": 2021,
+        "latitude": 55.7579867,
+        "longitude": -118.0771146,
+        "co2_Value": 11215.6841
+    },
+    {
+        "city_name": "Saddle Hills County",
+        "year": 2021,
+        "latitude": 55.85061100000001,
+        "longitude": -119.2417603,
+        "co2_Value": 891807.4907
+    },
+    {
+        "city_name": "Fairview No. 136",
+        "year": 2021,
+        "latitude": 56.0043273,
+        "longitude": -118.4498817,
+        "co2_Value": 19324.55481
+    },
+    {
+        "city_name": "Grande Prairie",
+        "year": 2021,
+        "latitude": 55.170691,
+        "longitude": -118.7884808,
+        "co2_Value": 248584.2742
+    },
+    {
+        "city_name": "Drayton Valley",
+        "year": 2021,
+        "latitude": 53.2214945,
+        "longitude": -114.976746,
+        "co2_Value": 19614.44
+    },
+    {
+        "city_name": "Brazeau County",
+        "year": 2021,
+        "latitude": 53.253376,
+        "longitude": -115.0997515,
+        "co2_Value": 297347.6928
+    },
+    {
+        "city_name": "Parkland County",
+        "year": 2021,
+        "latitude": 53.4754873,
+        "longitude": -114.0863102,
+        "co2_Value": 6304807.243
+    },
+    {
+        "city_name": "Lloydminster (Part)",
+        "year": 2021,
+        "latitude": 53.2779625,
+        "longitude": -110.0061451,
+        "co2_Value": 157204.6599
+    },
+    {
+        "city_name": "Stony Plain",
+        "year": 2021,
+        "latitude": 53.5291419,
+        "longitude": -114.0018178,
+        "co2_Value": 1766.22612
+    },
+    {
+        "city_name": "Strathcona County",
+        "year": 2021,
+        "latitude": 53.53267760000001,
+        "longitude": -113.1553199,
+        "co2_Value": 8981161.752
+    },
+    {
+        "city_name": "Sturgeon County",
+        "year": 2021,
+        "latitude": 53.81567,
+        "longitude": -113.562732,
+        "co2_Value": 2597310.661
+    },
+    {
+        "city_name": "Mackenzie County",
+        "year": 2021,
+        "latitude": 58.83213989999999,
+        "longitude": -117.103732,
+        "co2_Value": 365770.453
+    },
+    {
+        "city_name": "Improvement District No. 349",
+        "year": 2021,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "co2_Value": 4288231.567
+    },
+    {
+        "city_name": "Clear Hills",
+        "year": 2021,
+        "latitude": 56.9924812,
+        "longitude": -118.9976094,
+        "co2_Value": 54094.97296
+    },
+    {
+        "city_name": "Cold Lake 149",
+        "year": 2021,
+        "latitude": 54.2858374,
+        "longitude": -110.266284,
+        "co2_Value": 1325685.384
+    },
+    {
+        "city_name": "Canmore",
+        "year": 2021,
+        "latitude": 51.08836660000001,
+        "longitude": -115.3479101,
+        "co2_Value": 106.30161
+    },
+    {
+        "city_name": "Fox Creek",
+        "year": 2021,
+        "latitude": 54.4009429,
+        "longitude": -116.8044668,
+        "co2_Value": 8267.00124
+    },
+    {
+        "city_name": "Greenview No. 16",
+        "year": 2021,
+        "latitude": 54.70161909999999,
+        "longitude": -118.0739397,
+        "co2_Value": 5239806.725
+    },
+    {
+        "city_name": "Grande Prairie County No. 1",
+        "year": 2021,
+        "latitude": 55.2661007,
+        "longitude": -119.2462848,
+        "co2_Value": 1452972.006
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2021,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "co2_Value": 18238.3041
+    },
+    {
+        "city_name": "Bonnyville No. 87",
+        "year": 2021,
+        "latitude": 54.5982539,
+        "longitude": -110.6971896,
+        "co2_Value": 9169492.554
+    },
+    {
+        "city_name": "St. Paul County No. 19",
+        "year": 2021,
+        "latitude": 53.8768282,
+        "longitude": -111.1488003,
+        "co2_Value": 470686.9371
+    },
+    {
+        "city_name": "Improvement District No. 25 Willmore Wilderness",
+        "year": 2021,
+        "latitude": 53.6068436,
+        "longitude": -118.9998812,
+        "co2_Value": 50769.45941
+    },
+    {
+        "city_name": "Kananaskis",
+        "year": 2021,
+        "latitude": 50.7884532,
+        "longitude": -114.8147983,
+        "co2_Value": 31418.171
+    },
+    {
+        "city_name": "Bighorn No. 8",
+        "year": 2021,
+        "latitude": 51.42843689999999,
+        "longitude": -115.134649,
+        "co2_Value": 1578925.662
+    },
+    {
+        "city_name": "Improvement District No.  9 Banff",
+        "year": 2021,
+        "latitude": 51.5518011,
+        "longitude": -116.1458528,
+        "co2_Value": 23.01589
+    },
+    {
+        "city_name": "Wood Buffalo",
+        "year": 2021,
+        "latitude": 57.6066083,
+        "longitude": -111.6495855,
+        "co2_Value": 54450870.2
+    },
+    {
+        "city_name": "Leduc County",
+        "year": 2021,
+        "latitude": 53.2639063,
+        "longitude": -113.5394679,
+        "co2_Value": 7614271.927
+    },
+    {
+        "city_name": "Wetaskiwin County No. 10",
+        "year": 2021,
+        "latitude": 52.9743112,
+        "longitude": -113.9018395,
+        "co2_Value": 39870.21542
+    },
+    {
+        "city_name": "Northern Lights County",
+        "year": 2021,
+        "latitude": 57.71454309999999,
+        "longitude": -117.6594002,
+        "co2_Value": 23314.94225
+    },
+    {
+        "city_name": "High Level",
+        "year": 2021,
+        "latitude": 58.50706229999999,
+        "longitude": -117.140307,
+        "co2_Value": 14894.0246
+    },
+    {
+        "city_name": "Athabasca County",
+        "year": 2021,
+        "latitude": 54.8346278,
+        "longitude": -112.8709095,
+        "co2_Value": 136460.48
+    },
+    {
+        "city_name": "Lesser Slave River No.124",
+        "year": 2021,
+        "latitude": 55.3498429,
+        "longitude": -114.4603559,
+        "co2_Value": 237272.9343
+    },
+    {
+        "city_name": "Lamont County",
+        "year": 2021,
+        "latitude": 53.7901566,
+        "longitude": -112.5577641,
+        "co2_Value": 19753.93557
+    },
+    {
+        "city_name": "Yellowhead County",
+        "year": 2021,
+        "latitude": 53.5119663,
+        "longitude": -116.7743827,
+        "co2_Value": 2046541.009
+    },
+    {
+        "city_name": "Hinton",
+        "year": 2021,
+        "latitude": 53.399067,
+        "longitude": -117.5794057,
+        "co2_Value": 190075.9657
+    },
+    {
+        "city_name": "Edson",
+        "year": 2021,
+        "latitude": 53.58542199999999,
+        "longitude": -116.4337219,
+        "co2_Value": 12397.46
+    },
+    {
+        "city_name": "Redwater",
+        "year": 2021,
+        "latitude": 53.9519858,
+        "longitude": -113.1089245,
+        "co2_Value": 11531.76617
+    },
+    {
+        "city_name": "Red Deer",
+        "year": 2021,
+        "latitude": 52.2690328,
+        "longitude": -113.8114955,
+        "co2_Value": 392.2872
+    },
+    {
+        "city_name": "Drumheller",
+        "year": 2021,
+        "latitude": 51.4619438,
+        "longitude": -112.7106587,
+        "co2_Value": 0.8046
+    },
+    {
+        "city_name": "Starland County",
+        "year": 2021,
+        "latitude": 51.6468713,
+        "longitude": -112.457352,
+        "co2_Value": 1312.83602
+    },
+    {
+        "city_name": "Kneehill County",
+        "year": 2021,
+        "latitude": 51.649339,
+        "longitude": -113.3110382,
+        "co2_Value": 2732.88618
+    },
+    {
+        "city_name": "Warner County No. 5",
+        "year": 2021,
+        "latitude": 49.2807071,
+        "longitude": -112.113808,
+        "co2_Value": 3909.32194
+    },
+    {
+        "city_name": "Wainwright No. 61",
+        "year": 2021,
+        "latitude": 52.8849273,
+        "longitude": -110.6457099,
+        "co2_Value": 29.04606
+    },
+    {
+        "city_name": "Wainwright",
+        "year": 2021,
+        "latitude": 52.8431123,
+        "longitude": -110.8504203,
+        "co2_Value": 40.28126
+    },
+    {
+        "city_name": "Red Deer County",
+        "year": 2021,
+        "latitude": 52.1499388,
+        "longitude": -113.9063245,
+        "co2_Value": 1404.57621
+    },
+    {
+        "city_name": "Wheatland County",
+        "year": 2021,
+        "latitude": 51.0004921,
+        "longitude": -113.0246454,
+        "co2_Value": 119559.6383
+    },
+    {
+        "city_name": "Stettler County No. 6",
+        "year": 2021,
+        "latitude": 52.1517461,
+        "longitude": -112.6046251,
+        "co2_Value": 407.21521
+    },
+    {
+        "city_name": "Lacombe County",
+        "year": 2021,
+        "latitude": 52.4303621,
+        "longitude": -113.6482619,
+        "co2_Value": 17311.57543
+    },
+    {
+        "city_name": "Innisfail",
+        "year": 2021,
+        "latitude": 52.0274086,
+        "longitude": -113.9501267,
+        "co2_Value": 102.17019
+    },
+    {
+        "city_name": "Flagstaff County",
+        "year": 2021,
+        "latitude": 52.6530943,
+        "longitude": -111.8823074,
+        "co2_Value": 3311.54884
+    },
+    {
+        "city_name": "Leduc",
+        "year": 2021,
+        "latitude": 53.2647566,
+        "longitude": -113.5525216,
+        "co2_Value": 17.88
+    },
+    {
+        "city_name": "Paintearth County No. 18",
+        "year": 2021,
+        "latitude": 52.1430561,
+        "longitude": -111.7445106,
+        "co2_Value": 535.9828
+    },
+    {
+        "city_name": "Camrose County",
+        "year": 2021,
+        "latitude": 52.863976,
+        "longitude": -112.6405789,
+        "co2_Value": 439.14263
+    },
+    {
+        "city_name": "Fort Saskatchewan",
+        "year": 2021,
+        "latitude": 53.6962239,
+        "longitude": -113.2163654,
+        "co2_Value": 10673.04463
+    },
+    {
+        "city_name": "Edmonton",
+        "year": 2021,
+        "latitude": 53.5460983,
+        "longitude": -113.4937266,
+        "co2_Value": 33240.68744
+    },
+    {
+        "city_name": "Lethbridge",
+        "year": 2021,
+        "latitude": 49.6956181,
+        "longitude": -112.8451067,
+        "co2_Value": 263.6406
+    },
+    {
+        "city_name": "Cardston County",
+        "year": 2021,
+        "latitude": 49.2400296,
+        "longitude": -113.1395913,
+        "co2_Value": 0.03308
+    },
+    {
+        "city_name": "Rocky Mountain House",
+        "year": 2021,
+        "latitude": 52.3776203,
+        "longitude": -114.9137542,
+        "co2_Value": 0.5662
+    },
+    {
+        "city_name": "Newell County",
+        "year": 2021,
+        "latitude": 50.7465051,
+        "longitude": -112.1179048,
+        "co2_Value": 16328.54882
+    },
+    {
+        "city_name": "Alix",
+        "year": 2021,
+        "latitude": 52.3987522,
+        "longitude": -113.1929197,
+        "co2_Value": 148.72882
+    },
+    {
+        "city_name": "Ponoka County",
+        "year": 2021,
+        "latitude": 52.70448589999999,
+        "longitude": -114.2713021,
+        "co2_Value": 5249.98967
+    },
+    {
+        "city_name": "Lac la Biche County",
+        "year": 2021,
+        "latitude": 55.1433561,
+        "longitude": -111.7512942,
+        "co2_Value": 7220.27776
+    },
+    {
+        "city_name": "Clearwater County",
+        "year": 2021,
+        "latitude": 52.3241323,
+        "longitude": -115.5611493,
+        "co2_Value": 29189.72312
+    },
+    {
+        "city_name": "Minburn County No. 27",
+        "year": 2021,
+        "latitude": 53.41942969999999,
+        "longitude": -111.6511063,
+        "co2_Value": 415.3822
+    },
+    {
+        "city_name": "Whitecourt",
+        "year": 2021,
+        "latitude": 54.1425199,
+        "longitude": -115.6766396,
+        "co2_Value": 863.58701
+    },
+    {
+        "city_name": "Cochrane",
+        "year": 2021,
+        "latitude": 51.1917439,
+        "longitude": -114.4667528,
+        "co2_Value": 45.35113
+    },
+    {
+        "city_name": "Airdrie",
+        "year": 2021,
+        "latitude": 51.29269679999999,
+        "longitude": -114.0134113,
+        "co2_Value": 2207.882
+    },
+    {
+        "city_name": "Westlock County",
+        "year": 2021,
+        "latitude": 54.2548428,
+        "longitude": -113.8919141,
+        "co2_Value": 4028.9302
+    },
+    {
+        "city_name": "Woodlands County",
+        "year": 2021,
+        "latitude": 54.2791115,
+        "longitude": -115.4892484,
+        "co2_Value": 6790.81387
+    },
+    {
+        "city_name": "Beaver County",
+        "year": 2021,
+        "latitude": 53.1667335,
+        "longitude": -112.0234172,
+        "co2_Value": 171.44238
+    },
+    {
+        "city_name": "Medicine Hat",
+        "year": 2021,
+        "latitude": 50.0290218,
+        "longitude": -110.7031976,
+        "co2_Value": 11048.8864
+    },
+    {
+        "city_name": "Forty Mile County No. 8",
+        "year": 2021,
+        "latitude": 49.5536047,
+        "longitude": -111.1561075,
+        "co2_Value": 345.9035
+    },
+    {
+        "city_name": "Cypress County",
+        "year": 2021,
+        "latitude": 50.0228165,
+        "longitude": -110.4765127,
+        "co2_Value": 12034.42008
+    },
+    {
+        "city_name": "Willow Creek No. 26",
+        "year": 2021,
+        "latitude": 50.015466,
+        "longitude": -113.5466891,
+        "co2_Value": 2624.43504
+    },
+    {
+        "city_name": "Lethbridge County",
+        "year": 2021,
+        "latitude": 49.8199796,
+        "longitude": -112.8319593,
+        "co2_Value": 1193.66969
+    },
+    {
+        "city_name": "Taber, M.D.",
+        "year": 2021,
+        "latitude": 49.9604217,
+        "longitude": -112.1434347,
+        "co2_Value": 728.6404
+    },
+    {
+        "city_name": "Taber",
+        "year": 2021,
+        "latitude": 49.7818493,
+        "longitude": -112.1496791,
+        "co2_Value": 451.2316
+    },
+    {
+        "city_name": "Pincher Creek No. 9",
+        "year": 2021,
+        "latitude": 49.3814194,
+        "longitude": -114.0746567,
+        "co2_Value": 3752.68956
+    },
+    {
+        "city_name": "Pincher Creek",
+        "year": 2021,
+        "latitude": 49.484885,
+        "longitude": -113.9440351,
+        "co2_Value": 1578.8934
+    },
+    {
+        "city_name": "Special Area No. 2",
+        "year": 2021,
+        "latitude": 51.5372601,
+        "longitude": -111.6675467,
+        "co2_Value": 6027.44068
+    },
+    {
+        "city_name": "Special Area No. 3",
+        "year": 2021,
+        "latitude": 51.2680464,
+        "longitude": -110.768301,
+        "co2_Value": 326.1312
+    },
+    {
+        "city_name": "Special Area No. 4",
+        "year": 2021,
+        "latitude": 51.971819,
+        "longitude": -110.7697137,
+        "co2_Value": 2436.12914
+    },
+    {
+        "city_name": "Siksika 146",
+        "year": 2021,
+        "latitude": 50.7772558,
+        "longitude": -112.9356887,
+        "co2_Value": 768.84
+    },
+    {
+        "city_name": "Foothills County",
+        "year": 2021,
+        "latitude": 50.6008365,
+        "longitude": -114.0722624,
+        "co2_Value": 1385.72801
+    },
+    {
+        "city_name": "High River",
+        "year": 2021,
+        "latitude": 50.5767481,
+        "longitude": -113.8715613,
+        "co2_Value": 1286.73211
+    },
+    {
+        "city_name": "Rocky View County",
+        "year": 2021,
+        "latitude": 51.22201039999999,
+        "longitude": -113.8567226,
+        "co2_Value": 10646.31254
+    },
+    {
+        "city_name": "Calgary",
+        "year": 2021,
+        "latitude": 51.04473309999999,
+        "longitude": -114.0718831,
+        "co2_Value": 87191.06814
+    },
+    {
+        "city_name": "Mountain View County",
+        "year": 2021,
+        "latitude": 51.64396989999999,
+        "longitude": -114.1704323,
+        "co2_Value": 10515.71195
+    },
+    {
+        "city_name": "Camrose",
+        "year": 2021,
+        "latitude": 53.0173444,
+        "longitude": -112.8251176,
+        "co2_Value": 255.78949
+    },
+    {
+        "city_name": "Provost No. 52",
+        "year": 2021,
+        "latitude": 52.3710691,
+        "longitude": -110.5260144,
+        "co2_Value": 329.84964
+    },
+    {
+        "city_name": "Smoky River No. 130",
+        "year": 2021,
+        "latitude": 55.587325,
+        "longitude": -117.1963556,
+        "co2_Value": 64.07
+    },
+    {
+        "city_name": "Vermilion River County",
+        "year": 2021,
+        "latitude": 53.4477555,
+        "longitude": -110.5168128,
+        "co2_Value": 165.71482
+    },
+    {
+        "city_name": "Northern Sunrise County",
+        "year": 2021,
+        "latitude": 56.47547609999999,
+        "longitude": -116.2772478,
+        "co2_Value": 13033.29671
+    },
+    {
+        "city_name": "Big Lakes County",
+        "year": 2021,
+        "latitude": 55.4244421,
+        "longitude": -115.8451546,
+        "co2_Value": 13006.62154
+    },
+    {
+        "city_name": "Opportunity No. 17",
+        "year": 2021,
+        "latitude": 56.31767199999999,
+        "longitude": -113.4349116,
+        "co2_Value": 463.68889
+    },
+    {
+        "city_name": "Lac Ste. Anne County",
+        "year": 2021,
+        "latitude": 53.7818222,
+        "longitude": -114.3750458,
+        "co2_Value": 3.61236
+    },
+    {
+        "city_name": "Birch Hills County",
+        "year": 2021,
+        "latitude": 55.7579867,
+        "longitude": -118.0771146,
+        "co2_Value": 332.03458
+    },
+    {
+        "city_name": "Saddle Hills County",
+        "year": 2021,
+        "latitude": 55.85061100000001,
+        "longitude": -119.2417603,
+        "co2_Value": 34898.77374
+    },
+    {
+        "city_name": "Fairview No. 136",
+        "year": 2021,
+        "latitude": 56.0043273,
+        "longitude": -118.4498817,
+        "co2_Value": 824.99512
+    },
+    {
+        "city_name": "Grande Prairie",
+        "year": 2021,
+        "latitude": 55.170691,
+        "longitude": -118.7884808,
+        "co2_Value": 4315.42889
+    },
+    {
+        "city_name": "Drayton Valley",
+        "year": 2021,
+        "latitude": 53.2214945,
+        "longitude": -114.976746,
+        "co2_Value": 86.42
+    },
+    {
+        "city_name": "Brazeau County",
+        "year": 2021,
+        "latitude": 53.253376,
+        "longitude": -115.0997515,
+        "co2_Value": 15358.71527
+    },
+    {
+        "city_name": "Parkland County",
+        "year": 2021,
+        "latitude": 53.4754873,
+        "longitude": -114.0863102,
+        "co2_Value": 29540.66699
+    },
+    {
+        "city_name": "Lloydminster (Part)",
+        "year": 2021,
+        "latitude": 53.2779625,
+        "longitude": -110.0061451,
+        "co2_Value": 830.77811
+    },
+    {
+        "city_name": "Stony Plain",
+        "year": 2021,
+        "latitude": 53.5291419,
+        "longitude": -114.0018178,
+        "co2_Value": 33.16651
+    },
+    {
+        "city_name": "Strathcona County",
+        "year": 2021,
+        "latitude": 53.53267760000001,
+        "longitude": -113.1553199,
+        "co2_Value": 32561.10768
+    },
+    {
+        "city_name": "Sturgeon County",
+        "year": 2021,
+        "latitude": 53.81567,
+        "longitude": -113.562732,
+        "co2_Value": 12300.62646
+    },
+    {
+        "city_name": "Mackenzie County",
+        "year": 2021,
+        "latitude": 58.83213989999999,
+        "longitude": -117.103732,
+        "co2_Value": 3816.65586
+    },
+    {
+        "city_name": "Improvement District No. 349",
+        "year": 2021,
+        "latitude": 53.9332706,
+        "longitude": -116.5765035,
+        "co2_Value": 10041.46998
+    },
+    {
+        "city_name": "Clear Hills",
+        "year": 2021,
+        "latitude": 56.9924812,
+        "longitude": -118.9976094,
+        "co2_Value": 1829.34154
+    },
+    {
+        "city_name": "Cold Lake 149",
+        "year": 2021,
+        "latitude": 54.2858374,
+        "longitude": -110.266284,
+        "co2_Value": 1896.54948
+    },
+    {
+        "city_name": "Canmore",
+        "year": 2021,
+        "latitude": 51.08836660000001,
+        "longitude": -115.3479101,
+        "co2_Value": 0.54415
+    },
+    {
+        "city_name": "Fox Creek",
+        "year": 2021,
+        "latitude": 54.4009429,
+        "longitude": -116.8044668,
+        "co2_Value": 47.86297
+    },
+    {
+        "city_name": "Greenview No. 16",
+        "year": 2021,
+        "latitude": 54.70161909999999,
+        "longitude": -118.0739397,
+        "co2_Value": 196994.2085
+    },
+    {
+        "city_name": "Grande Prairie County No. 1",
+        "year": 2021,
+        "latitude": 55.2661007,
+        "longitude": -119.2462848,
+        "co2_Value": 29801.26292
+    },
+    {
+        "city_name": "Cold Lake",
+        "year": 2021,
+        "latitude": 54.464249,
+        "longitude": -110.1731779,
+        "co2_Value": 222.308
+    },
+    {
+        "city_name": "Bonnyville No. 87",
+        "year": 2021,
+        "latitude": 54.5982539,
+        "longitude": -110.6971896,
+        "co2_Value": 36975.19185
+    },
+    {
+        "city_name": "St. Paul County No. 19",
+        "year": 2021,
+        "latitude": 53.8768282,
+        "longitude": -111.1488003,
+        "co2_Value": 1792.91998
+    },
+    {
+        "city_name": "Improvement District No. 25 Willmore Wilderness",
+        "year": 2021,
+        "latitude": 53.6068436,
+        "longitude": -118.9998812,
+        "co2_Value": 360.2224
+    },
+    {
+        "city_name": "Kananaskis",
+        "year": 2021,
+        "latitude": 50.7884532,
+        "longitude": -114.8147983,
+        "co2_Value": 959.04893
+    },
+    {
+        "city_name": "Bighorn No. 8",
+        "year": 2021,
+        "latitude": 51.42843689999999,
+        "longitude": -115.134649,
+        "co2_Value": 3319.87228
+    },
+    {
+        "city_name": "Improvement District No.  9 Banff",
+        "year": 2021,
+        "latitude": 51.5518011,
+        "longitude": -116.1458528,
+        "co2_Value": 0.10758
+    },
+    {
+        "city_name": "Wood Buffalo",
+        "year": 2021,
+        "latitude": 57.6066083,
+        "longitude": -111.6495855,
+        "co2_Value": 231810.4023
+    },
+    {
+        "city_name": "Leduc County",
+        "year": 2021,
+        "latitude": 53.2639063,
+        "longitude": -113.5394679,
+        "co2_Value": 44069.64269
+    },
+    {
+        "city_name": "Wetaskiwin County No. 10",
+        "year": 2021,
+        "latitude": 52.9743112,
+        "longitude": -113.9018395,
+        "co2_Value": 1332.507
+    },
+    {
+        "city_name": "Northern Lights County",
+        "year": 2021,
+        "latitude": 57.71454309999999,
+        "longitude": -117.6594002,
+        "co2_Value": 1184.00466
+    },
+    {
+        "city_name": "High Level",
+        "year": 2021,
+        "latitude": 58.50706229999999,
+        "longitude": -117.140307,
+        "co2_Value": 1199.8076
+    },
+    {
+        "city_name": "Athabasca County",
+        "year": 2021,
+        "latitude": 54.8346278,
+        "longitude": -112.8709095,
+        "co2_Value": 9681.68028
+    },
+    {
+        "city_name": "Lesser Slave River No.124",
+        "year": 2021,
+        "latitude": 55.3498429,
+        "longitude": -114.4603559,
+        "co2_Value": 7190.91552
+    },
+    {
+        "city_name": "Lamont County",
+        "year": 2021,
+        "latitude": 53.7901566,
+        "longitude": -112.5577641,
+        "co2_Value": 100.92157
+    },
+    {
+        "city_name": "Yellowhead County",
+        "year": 2021,
+        "latitude": 53.5119663,
+        "longitude": -116.7743827,
+        "co2_Value": 64736.7002
+    },
+    {
+        "city_name": "Hinton",
+        "year": 2021,
+        "latitude": 53.399067,
+        "longitude": -117.5794057,
+        "co2_Value": 4158.4711
+    },
+    {
+        "city_name": "Edson",
+        "year": 2021,
+        "latitude": 53.58542199999999,
+        "longitude": -116.4337219,
+        "co2_Value": 1424.44
+    },
+    {
+        "city_name": "Redwater",
+        "year": 2021,
+        "latitude": 53.9519858,
+        "longitude": -113.1089245,
+        "co2_Value": 424.32816
+    }
+]
