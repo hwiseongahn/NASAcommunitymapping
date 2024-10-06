@@ -44,25 +44,25 @@ def get_province_data():
             'Northwest Territories',
             'Nova Scotia'
         ],
-        'value': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
+        'value': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+        'co2_value': [0] * 11, #initliaze empty co2 vals
+        'current_year': 2024, #default year
+        'current_source': 'Agriculture' #default source
     })
     return data
 
 
 data = get_province_data()
 
-for i in range(len(data)):
-    folium.Marker(
-        location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
-        popup=f"{data.iloc[i]['name']} - Value: {data.iloc[i]['value']}"
-    ).add_to(m)
 
 
-def generate_heatmap():
+
+def generate_heatmap(source, year):
     df = pd.read_csv("res/carbonemissions.csv")
     #test source and year
-    source = "Agriculture"
-    year = 2020
+    #set source and year 
+    data['current_year'] = year #set the year so we can access it for the marker
+    data['current_source'] = source #set the source so we can access it for the marker
     filtered_rows = df.loc[(df["Source"] == source)
                        & (df["Year"] == year)
                        & (df["Total"] == "y")
@@ -75,7 +75,6 @@ def generate_heatmap():
     #create a loop that iterates through co2 values, finds the associated "Region" and gets the 'lon' and 'lat' value from
     # the coordinates dataFrame and adds it as a new list into the heat map data list
     heatmap_data = []
-
     for index, row in filtered_rows.iterrows():
         region_name = row["Region"]
 
@@ -87,12 +86,15 @@ def generate_heatmap():
             lon = float(coord_row['lon'].values[0])
             value = float(row["CO2eq"])/max_co2 #divide by the max value to get our opacity value between 0 and 1
 
+            # Add CO2 value to the corresponding region in the DataFrame
+            data.loc[data['name'] == region_name, 'co2_value'] = row["CO2eq"]
+
             # Add the data to heatmap_data
             heatmap_data.append([lat, lon, value])  # Append [latitude, longitude, CO2 value]
 
     HeatMap(heatmap_data, radius=50, blur=40, min_opacity=0.2).add_to(m)
 
-generate_heatmap()
+generate_heatmap("Agriculture",2020)
 
 def generate_heatmap_over_time():
     #load data
@@ -142,5 +144,21 @@ def generate_heatmap_over_time():
 
 #generate_heatmap_over_time()
     
+#generate markers
+
+def generate_markers():
+    for i in range(len(data)):
+        co2_value_formatted = f"{float(data.iloc[i]['co2_value']):.2f}"
+            
+        html = f"""<h1>{data.iloc[i]['name']}</h1>
+                    <h4>Source: {data.iloc[i]['current_source']}</h4>
+                    <h4>Year: {data.iloc[i]['current_year']}</h4>
+                 <h5><b>CO2 (kt)</b> {co2_value_formatted} kt</h5>"""
+        folium.Marker(
+            location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
+            popup=html
+        ).add_to(m)
+
+generate_markers()
 
 m.save('canadaMap.html')
