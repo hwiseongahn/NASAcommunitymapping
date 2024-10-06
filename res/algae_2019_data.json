@@ -28,13 +28,6 @@
         "averageCellCount": 6168
     },
     {
-        "city_name": "Lac La Biche",
-        "year": 2019,
-        "latitude": 54.77420859999999,
-        "longitude": -111.9661447,
-        "averageCellCount": 0
-    },
-    {
         "city_name": "Minnie Lake",
         "year": 2019,
         "latitude": 54.2804779,
@@ -47,13 +40,6 @@
         "latitude": 54.2388078,
         "longitude": -110.9069332,
         "averageCellCount": 15688
-    },
-    {
-        "city_name": "Pigeon Lake",
-        "year": 2019,
-        "latitude": 53.0386329,
-        "longitude": -114.0953302,
-        "averageCellCount": 0
     },
     {
         "city_name": "Wabamun Lake",
