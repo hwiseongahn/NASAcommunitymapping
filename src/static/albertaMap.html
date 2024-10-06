@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_cac1838527db4a5ce2b42cba7c6153ac {
+                #map_dc8ee4c7614042c118553a4190bdb01b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,18 +35,19 @@
                 .leaflet-container { font-size: 1rem; }
             </style>
         
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
 </head>
 <body>
     
     
-            <div class="folium-map" id="map_cac1838527db4a5ce2b42cba7c6153ac" ></div>
+            <div class="folium-map" id="map_dc8ee4c7614042c118553a4190bdb01b" ></div>
         
 </body>
 <script>
     
     
-            var map_cac1838527db4a5ce2b42cba7c6153ac = L.map(
-                "map_cac1838527db4a5ce2b42cba7c6153ac",
+            var map_dc8ee4c7614042c118553a4190bdb01b = L.map(
+                "map_dc8ee4c7614042c118553a4190bdb01b",
                 {
                     center: [56.1304, -90.3468],
                     crs: L.CRS.EPSG3857,
@@ -60,13 +61,22 @@
 
         
     
-            var tile_layer_83e9c2ef31eb296e6c7d0e729a8dbbca = L.tileLayer(
+            var tile_layer_8aa740cddb9c24433e73e95973654bd5 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_83e9c2ef31eb296e6c7d0e729a8dbbca.addTo(map_cac1838527db4a5ce2b42cba7c6153ac);
+            tile_layer_8aa740cddb9c24433e73e95973654bd5.addTo(map_dc8ee4c7614042c118553a4190bdb01b);
+        
+    
+            var heat_map_9218cbac0b2617cb9bed01afb072f176 = L.heatLayer(
+                [[55.283333, -118.983333, 0.2118558540581818], [54.2298124, -111.6292957, 1.0], [53.6125, -113.631944, 0.028476920302229113], [53.4845517, -114.2414362, 0.023668729877934128], [54.2804779, -111.1015881, 0.8889856751996378], [54.2388078, -110.9069332, 0.06020023254296864], [53.5465965, -114.5554829, 0.1353392402828889]],
+                {"blur": 40, "maxZoom": 18, "minOpacity": 0.2, "radius": 50}
+            );
+        
+    
+            heat_map_9218cbac0b2617cb9bed01afb072f176.addTo(map_dc8ee4c7614042c118553a4190bdb01b);
         
 </script>
 </html>

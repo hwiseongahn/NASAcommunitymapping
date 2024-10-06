@@ -5,6 +5,12 @@ import branca
 from jinja2 import Template
 from folium.plugins import HeatMap, HeatMapWithTime
 import alberta_map
+import json
+
+def loadJSON(file): #kevin 
+    with open(file, 'r') as file:
+        data = json.load(file)
+    return data
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
@@ -15,15 +21,17 @@ def index():
 
 @app.route("/alberta", methods=["POST"])
 def alberta():
-    return render_template("alberta.html")
+    map_file = 'albertaMap.html'
+    alberta_map.generateAlbertaMap('algae', 2019)
+    return render_template("alberta.html", map_file=map_file)
 
 @app.route("/generateAlberta", methods=["POST"])
 def generateAlberta():
-    option = "Algae"
-    year = 2019
-    
+
+    option = request.form['option']
+    year = int(request.form['year'])
     map_file = 'albertaMap.html'
-    alberta_map.generateAlbertaMap(option, year, data)
+    alberta_map.generateAlbertaMap(option, year)
     return render_template("alberta.html", map_file=map_file)
 
 @app.route("/canada", methods=["POST"])
