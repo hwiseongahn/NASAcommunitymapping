@@ -4,6 +4,11 @@ import folium
 import branca
 from jinja2 import Template
 from folium.plugins import HeatMap, HeatMapWithTime
+from choropleth import generate_choropleth
+import json
+from folium import Choropleth, LayerControl
+from branca.element import Template, MacroElement
+
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
@@ -18,21 +23,28 @@ def generate():
     source = request.form['source']
     year = int(request.form['year'])
 
+    map_to_generate = request.form.get('map_type')#get the button that was clicked to decide which map to generate
+   
     # Get the province data
     data = get_province_data()
 
-    global m
     # Clear the map before generating a new one
-    m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=7)
+    m = folium.Map(location=[56.1304, -106.3468], tiles="OpenStreetMap", zoom_start=3)
 
-    generate_heatmap(source, year, data)  # Generate heatmap based on user input
-    generate_markers(data)  # Add markers based on the updated data
+    #check whether to generate a heatmap or a chloropleth map
+    if map_to_generate == 'heatmap':
+        generate_heatmap(source, year, data, m)  # Generate heatmap based on user input
+        generate_markers(data,m)  # Add markers based on the updated data
+    else:
+        generate_choropleth(source,year,data,m)
+
+    
 
     # Save the map to a static file
     map_file = 'canadaMap.html'
     m.save(f"src/static/{map_file}")
 
-    return render_template("index.html", map_file=map_file)
+    return render_template("index.html", map_file=map_file, selected_source=source, selected_year=year)
 
 
 def get_province_data():
@@ -84,7 +96,7 @@ def get_province_data():
     return data
 
 
-def generate_heatmap(source, year, data):
+def generate_heatmap(source, year, data, m):
     df = pd.read_csv("res/carbonemissions.csv")
     #test source and year
     #set source and year 
@@ -171,7 +183,7 @@ def generate_heatmap_over_time():
     
 #generate markers
 
-def generate_markers(data):
+def generate_markers(data,m):
     with open('src/popup_template.html', 'r') as file:
         template = Template(file.read())
 
@@ -186,7 +198,6 @@ def generate_markers(data):
         )
         iframe = branca.element.IFrame(html=html, width=250, height=175)
         popup = folium.Popup(iframe, max_width=500) 
-        
         folium.Marker(
             location=[data.iloc[i]['lat'], data.iloc[i]['lon']],
             popup=popup
