@@ -1,13 +1,13 @@
+import os
 from flask import Flask, render_template, request
 import pandas as pd
 import folium
 import branca
 from jinja2 import Template
-from folium.plugins import HeatMap, HeatMapWithTime
+from folium.plugins import HeatMap
 from choropleth import generate_choropleth
 import json
-from folium import Choropleth, LayerControl
-from branca.element import Template, MacroElement
+from branca.element import Template
 import alberta_map
 import json
 
@@ -20,10 +20,15 @@ def loadJSON(file): #kevin
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
+
 @app.route("/", methods=["GET", "POST"])
 def index():
     map_file = None
     return render_template("index.html", map_file=map_file)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))  # Make sure PORT is set
+    app.run(host='0.0.0.0', port=port)  # Use 0.0.0.0 to allow external access
 
 @app.route("/alberta", methods=["POST"])
 def alberta():
