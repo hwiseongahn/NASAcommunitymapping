@@ -1,1 +1,1 @@
-web: PYTHONPATH=src gunicorn main:app
+web: gunicorn --log-level debug src.main:app
