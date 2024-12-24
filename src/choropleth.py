@@ -1,4 +1,3 @@
-import folium
 import pandas as pd
 import json
 from folium import Choropleth, LayerControl

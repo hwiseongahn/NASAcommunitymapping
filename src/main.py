@@ -3,11 +3,10 @@ import pandas as pd
 import folium
 import branca
 from jinja2 import Template
-from folium.plugins import HeatMap, HeatMapWithTime
+from folium.plugins import HeatMap
 from choropleth import generate_choropleth
 import json
-from folium import Choropleth, LayerControl
-from branca.element import Template, MacroElement
+from branca.element import Template
 import alberta_map
 import json
 
