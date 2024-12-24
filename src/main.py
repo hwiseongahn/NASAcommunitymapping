@@ -11,6 +11,8 @@ from branca.element import Template, MacroElement
 import alberta_map
 import json
 
+#test comment
+
 def loadJSON(file): #kevin 
     with open(file, 'r') as file:
         data = json.load(file)
