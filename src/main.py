@@ -23,6 +23,9 @@ def index():
     map_file = None
     return render_template("index.html", map_file=map_file)
 
+if __name__ == "__main__":
+    app.run()
+
 @app.route("/alberta", methods=["POST"])
 def alberta():
     map_file = 'albertaMap.html'
