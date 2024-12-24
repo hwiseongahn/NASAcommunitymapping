@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request
 import pandas as pd
 import folium
@@ -16,6 +17,11 @@ def loadJSON(file): #kevin
     return data
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
+
+port = int(os.environ.get("PORT", 8080))
+
+# Make sure your app runs on all interfaces (0.0.0.0)
+app.run(host="0.0.0.0", port=port)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
