@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request
 import pandas as pd
 import folium
@@ -24,7 +25,8 @@ def index():
     return render_template("index.html", map_file=map_file)
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 8080))  # Make sure PORT is set
+    app.run(host='0.0.0.0', port=port)  # Use 0.0.0.0 to allow external access
 
 @app.route("/alberta", methods=["POST"])
 def alberta():
