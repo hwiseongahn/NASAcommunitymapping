@@ -1,0 +1,7 @@
+[build]
+  base = ""
+  command = "pip install -r requirements.txt && python -m functions.hello"
+  publish = "public"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
