@@ -69,8 +69,9 @@ def canada():
 
 @app.route("/generate", methods=["POST"])
 def generate():
+
     map_file = None
-    source = request.form['source']    
+    source = request.form['source']   
     year = int(request.form['year'])
     map_to_generate = request.form.get('map_type')  #get the button that was clicked to decide which map to generate
     # Get the province data
