@@ -20,12 +20,12 @@
                         </div>
                     </div>
                     <div class="card-body">
-                    <form action="/generateAlberta" method="POST" onsubmit="return submitValition(event)">
+                    <form action="/generateAlberta" method="POST" onsubmit="return submitValidation(event)">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="option">Select Map Option:</label>
                                 <select name="option" id="option" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
-                                    <option value="Select Option" selected disabled>Select Option</option>
+                                    <option value="" selected disabled>Select Option</option>
                                     <option value="algae">Algae</option>
                                     <option value="co2">CO2</option>
                                 </select>
@@ -33,7 +33,7 @@
                             <div class="col-md-6">
                                 <label for="year">Select Year:</label>
                                 <select name="year" id="year" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
-                                    <option value="Select Year" disabled selected>Select Year</option>
+                                    <option value="" disabled selected>Select Year</option>
                                     <option value="2019">2019</option>
                                     <option value="2020">2020</option>
                                     <option value="2021">2021</option>
@@ -77,10 +77,10 @@
     </div>
 </body>
 <script>
-    const submitValition = (event) => {
+    const submitValidation = (event) => {
         const option = document.getElementById('option').value
         const year = document.getElementById('year').value
-        if(!option|| !year){
+        if(!option|| option == "" || !year || year==""){
             console.log(option)
             console.log(year)
             console.log('no source or year')
