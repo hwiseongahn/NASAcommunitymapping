@@ -11,8 +11,6 @@ from branca.element import Template
 import alberta_map
 import json
 
-#test comment
-
 def loadJSON(file): #kevin 
     with open(file, 'r') as file:
         data = json.load(file)
@@ -74,7 +72,7 @@ def generate():
     map_file = None
     source = request.form['source']    
     year = int(request.form['year'])
-    map_to_generate = request.form.get('map_type')#get the button that was clicked to decide which map to generate
+    map_to_generate = request.form.get('map_type')  #get the button that was clicked to decide which map to generate
     # Get the province data
     data = get_province_data()
 

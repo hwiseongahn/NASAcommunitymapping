@@ -22,7 +22,7 @@
                             <div class="col-md-6">
                                 <label for="source">Select Source:</label>
                                 <select name="source" id="source" class="form-select-lg w-100 p-2 border-2 bg-dark text-light">
-                                    <option selected disabled>Source of CO2 Emission</option>
+                                    <option value ="" selected disabled>Source of CO2 Emission</option>
                                     <option value="Agriculture">Agriculture</option>
                                     <option value="Buildings">Buildings</option>
                                     <option value="Transport">Transport</option>
@@ -79,10 +79,14 @@
     </div>
 </body>
 <script>
-    const submitValition = (event) => {
+    const submitValidation = (event) => {
         const source = document.getElementById('source').value
         const year = document.getElementById('year').value
-        if(!source || !year){
+
+        console.log('Selected source value:', source);
+        console.log('Year value:', year);
+
+        if(!source || source == "" || !year) {
             console.log(source)
             console.log(year)
             console.log('no source or year')
