@@ -1,5 +1,7 @@
 Algae-CO2 Correlation and Prediction Web Application
 
+Visit it here: https://algaeandco2.up.railway.app/
+
 Project Overview
 
 This web application visualizes the correlation between algal growth and CO2 emissions in Alberta, Canada. By mapping the algae populations in lakes against CO2 emission hotspots, the application helps identify trends and spatial correlations, potentially informing environmental policies and industrial practices. The project is designed to offer valuable insights into how natural algae populations contribute to carbon sequestration and how they may help mitigate the effects of climate change.
