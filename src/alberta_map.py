@@ -1,8 +1,7 @@
 import folium
 import main
 import pandas as pd
-from folium.plugins import HeatMap, HeatMapWithTime
-import json
+from folium.plugins import HeatMap
 
 def generateAlbertaMap(option, year):
     global albertamap
@@ -36,7 +35,7 @@ def generate_alberta_heatmap(option, year):
 
     
     #make if statement for CO2
-    elif option == "co2":
+    elif option == "CO2":
         co2_values = [float(num["co2_Value"]) for num in data]
         max_co2 = max(co2_values)
     #create a loop that iterates through co2 values, finds the associated "Region" and gets the 'lon' and 'lat' value from
@@ -56,16 +55,3 @@ def generate_alberta_heatmap(option, year):
 
 
     HeatMap(heatmap_data, radius=50, blur=40, min_opacity=0.2).add_to(albertamap)
-    
-    # for row in data:
-
-    #     lat = row["latitude"]
-    #     print(lat)
-    #     lon = row["longitude"]
-    #     value = row["averageCellCount"]
-
-    #     heatmap_data.append([lat, lon, value])
-
-    # HeatMap(heatmap_data, radius=50, blur=40, min_opacity=0.2).add_to(albertamap)
-
-
