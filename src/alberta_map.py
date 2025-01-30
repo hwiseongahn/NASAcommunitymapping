@@ -8,7 +8,7 @@ def generateAlbertaMap(option, year):
     albertamap = folium.Map(location=[55, -115.5834], tiles="OpenStreetMap", zoom_start=5)
     df = pd.read_csv("res/carbonemissions.csv")
     generate_alberta_heatmap(option, year) 
-    albertamap.save('src/static/albertaMap.html')
+    albertamap.save('/tmp/albertaMap.html')
 
 def generate_alberta_heatmap(option, year):
 
