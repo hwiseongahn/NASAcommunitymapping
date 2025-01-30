@@ -1,3 +1,4 @@
 myenv/
 .idea/
 src/__pycache__/
+.vercel
