@@ -62,7 +62,7 @@ def generate():
 
     # Save the map to a static file
     map_file = 'canadaMap.html'
-    m.save(f"tmp/{map_file}")
+    m.save(f"/tmp/{map_file}")
 
     return render_template("index.html", map_file=map_file, selected_source=source, selected_year=year)
 
